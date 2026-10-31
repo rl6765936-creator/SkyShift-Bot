@@ -1,0 +1,21 @@
+# סביבה וירטואלית וספריות
+.venv/
+venv/
+
+# מאגר הווקטורים (נבנה מחדש עם python ingest.py)
+chroma_db/
+
+# קבצים זמניים של Python
+__pycache__/
+*.pyc
+
+# מפתחות וסודות - לעולם לא עולים ל-Git
+.env
+.env.*
+!.env.example
+
+# קבצי מערכת ועורכים
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

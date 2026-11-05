@@ -1,107 +1,107 @@
-# The Problem We Set Out to Solve
+# הבעיה שיצאנו לפתור
 
-**Document ID:** SKS-KB-002
-**Version:** 1.1
-**Owner:** Research & Strategy
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-002
+**גרסה:** 1.1
+**אחראי:** מחקר ואסטרטגיה
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. One more traffic jam
+## 1. עוד פקק אחד
 
-> "Another traffic jam. Another meeting slipping away. More time that could have been yours."
+> "עוד פקק. עוד פגישה שמתרחקת. עוד זמן שהיה יכול להיות שלך."
 
-This line opens the SkyShift story on the platform's home page. It sums up the problem that led to the founding of the venture: daily travel takes a large and growing share of people's time, and the road alone cannot keep up with demand.
+המשפט הזה פותח את הסיפור של SkyShift בעמוד הבית של הפלטפורמה. הוא מסכם את הבעיה שהובילה להקמת המיזם: נסיעות יומיות לוקחות חלק גדול וגדל מהזמן של אנשים, והכביש לבדו לא עומד בביקוש.
 
-## 2. The core problem
+## 2. הבעיה המרכזית
 
-SkyShift's internal Problem Statement (August 2025) defines the problem in one sentence:
+"הגדרת הבעיה" הפנימית של SkyShift (אוגוסט 2025) מגדירה את הבעיה במשפט אחד:
 
-**"Road congestion currently decides, on its own, how long our daily journeys take, and people have no realistic alternative dimension of travel."**
+**"עומסי התנועה בכביש קובעים היום לבדם כמה זמן לוקחות הנסיעות היומיות שלנו, ולאנשים אין מימד נסיעה חלופי ומעשי."**
 
-The problem has four parts.
+לבעיה ארבעה חלקים.
 
-### 2.1 Lost time
+### 2.1 זמן אבוד
 
-Time spent in traffic is time taken away from family, study, work and rest. For a commuter making several trips a day, the minutes add up to many hours each month. That time cannot be recovered.
+זמן בפקקים הוא זמן שנלקח מהמשפחה, מהלימוד, מהעבודה ומהמנוחה. אצל מי שנוסע כמה פעמים ביום, הדקות מצטברות לשעות רבות בכל חודש. את הזמן הזה אי אפשר להחזיר.
 
-### 2.2 Unpredictability
+### 2.2 חוסר ודאות
 
-The problem is not only the length of the journey but its uncertainty. A trip that takes 25 minutes on one day can take an hour on another. People compensate by leaving earlier, building in "safety margins", and still arriving late to meetings and appointments.
+הבעיה היא לא רק אורך הנסיעה, אלא חוסר הוודאות שלה. נסיעה שלוקחת 25 דקות ביום אחד יכולה לקחת שעה ביום אחר. אנשים מפצים על כך כשהם יוצאים מוקדם יותר ומשאירים "מרווחי ביטחון", ועדיין מאחרים לפגישות ולתורים.
 
-### 2.3 Infrastructure that cannot keep pace
+### 2.3 תשתית שלא מדביקה את הקצב
 
-Building new roads and lanes takes many years and large budgets, and is limited by available land, especially in dense urban areas. New capacity tends to fill up again as demand grows.
+סלילת כבישים ונתיבים חדשים לוקחת שנים רבות ותקציבים גדולים, ומוגבלת בקרקע הפנויה, במיוחד באזורים עירוניים צפופים. קיבולת חדשה נוטה להתמלא שוב ככל שהביקוש גדל.
 
-### 2.4 One dimension only
+### 2.4 מימד אחד בלבד
 
-Almost all personal travel takes place in a single dimension: on the ground. The airspace above the roads is largely unused for personal travel. SkyShift's founders asked why the next dimension should stay closed to everyday people forever.
+כמעט כל הנסיעות האישיות מתבצעות במימד אחד: על הקרקע. המרחב האווירי שמעל הכבישים כמעט אינו בשימוש לנסיעות אישיות. המייסדים של SkyShift שאלו למה המימד הבא צריך להישאר סגור בפני אנשים רגילים לתמיד.
 
-## 3. Why now
+## 3. למה עכשיו
 
-Three developments convinced the founders that the time is right to begin preparing.
+שלוש התפתחויות שכנעו את המייסדים שזה הזמן להתחיל להתכונן.
 
-**Technology.** Electric propulsion, high-energy batteries, lightweight composite structures and fly-by-wire control have made it possible to design vertical take-off and landing aircraft that are quieter, simpler and potentially safer than traditional helicopters.
+**טכנולוגיה.** הנעה חשמלית, סוללות בעלות צפיפות אנרגיה גבוהה, מבנים מחומרים מרוכבים קלים ובקרת טיסה ממוחשבת (fly-by-wire) מאפשרים לתכנן כלי טיס בהמראה ונחיתה אנכית שהם שקטים יותר, פשוטים יותר ואולי בטוחים יותר ממסוקים מסורתיים.
 
-**Regulation.** Aviation authorities have begun to publish dedicated frameworks:
+**רגולציה.** רשויות תעופה התחילו לפרסם מסגרות ייעודיות:
 
-- In July 2019 the European Union Aviation Safety Agency (EASA) published its **Special Condition for small-category VTOL aircraft (SC-VTOL)**, with a "Basic" category and an "Enhanced" category for flights over congested areas or commercial operations.
-- On 22 October 2024 the United States Federal Aviation Administration (FAA) issued a **final rule and Special Federal Aviation Regulation (SFAR) for powered-lift aircraft**, covering pilot training, certification and operational requirements for this new category.
+- ביולי 2019 פרסמה סוכנות בטיחות התעופה של האיחוד האירופי (EASA) את **התנאי המיוחד לכלי טיס VTOL קטנים (SC-VTOL)**, עם קטגוריה "בסיסית" (Basic) וקטגוריה "משופרת" (Enhanced) לטיסות מעל אזורים צפופים או לפעילות מסחרית.
+- ב-22 באוקטובר 2024 פרסם מנהל התעופה הפדרלי של ארצות הברית (FAA) **כלל סופי ותקנה פדרלית מיוחדת (SFAR) לכלי טיס מסוג powered-lift**, שעוסקים בהכשרת טייסים, בהסמכה ובדרישות תפעוליות לקטגוריה החדשה הזו.
 
-**National initiatives in Israel.** The **Israel National Drone Initiative (INDI)**, established in 2019 as a partnership led by the Ministry of Transport, the Israel Innovation Authority, Ayalon Highways and the Civil Aviation Authority of Israel, has been preparing Israeli airspace for drone deliveries and air taxis. As part of the initiative, Israel's first air taxi test flights were held in June 2023, and an air taxi test flight took place in Jerusalem in September 2023. One of the initiative's stated goals is to help relieve road congestion.
+**יוזמות לאומיות בישראל.** **המיזם הלאומי לרחפנים (INDI)**, שהוקם ב-2019 כשותפות בהובלת משרד התחבורה, רשות החדשנות, נתיבי איילון ורשות התעופה האזרחית, מכין את המרחב האווירי של ישראל למשלוחים ברחפנים ולמוניות אוויריות. במסגרת המיזם התקיימו ביוני 2023 טיסות הניסוי הראשונות של מונית אווירית בישראל, ובספטמבר 2023 התקיימה טיסת ניסוי של מונית אווירית בירושלים. אחת המטרות המוצהרות של המיזם היא לסייע בהקלה על עומסי התנועה.
 
-SkyShift is an independent venture and is **not** part of INDI. The initiative shows, however, that the question SkyShift asks is being taken seriously at a national level.
+SkyShift הוא מיזם עצמאי, ו**אינו** חלק מ-INDI. אבל המיזם הלאומי מראה שהשאלה ש-SkyShift שואל נלקחת ברצינות ברמה הלאומית.
 
-## 4. What we learned from people: the 2025 research phase
+## 4. מה למדנו מאנשים: שלב המחקר של 2025
 
-Between April and July 2025, SkyShift ran a research phase to understand the problem from the point of view of the people who live it every day. The research included an online survey, in-depth interviews and focus groups.
+בין אפריל ליולי 2025 ניהל SkyShift שלב מחקר, כדי להבין את הבעיה מנקודת המבט של מי שחווה אותה כל יום. המחקר כלל סקר מקוון, ראיונות עומק וקבוצות מיקוד.
 
-### 4.1 Internal participant survey (SkyShift, 2025)
+### 4.1 סקר המשתתפים הפנימי (SkyShift, 2025)
 
-The survey was answered by 1,240 adults who drive regularly in central Israel. Main findings:
+על הסקר ענו 1,240 מבוגרים שנוהגים באופן קבוע במרכז הארץ. הממצאים העיקריים:
 
-| Finding | Share of respondents |
+| ממצא | שיעור המשיבים |
 |---|---|
-| Spend more than one hour a day on the road | 58% |
-| Arrived late at least once a week because of traffic | 47% |
-| Would consider a personal air vehicle for daily trips if it were proven safe | 64% |
-| Named **safety** as their first condition | 81% |
-| Named **cost** as their first condition | 9% |
-| Would prefer to try before committing | 88% |
+| מבלים יותר משעה ביום בכביש | 58% |
+| איחרו לפחות פעם בשבוע בגלל פקקים | 47% |
+| היו שוקלים כלי טיס אישי לנסיעות יומיות אם יוכח שהוא בטוח | 64% |
+| ציינו את **הבטיחות** כתנאי הראשון שלהם | 81% |
+| ציינו את **העלות** כתנאי הראשון שלהם | 9% |
+| היו מעדיפים לנסות לפני שמתחייבים | 88% |
 
-*These figures are from SkyShift's internal survey and are not national statistics.*
+*הנתונים האלה לקוחים מהסקר הפנימי של SkyShift, ואינם נתונים ארציים.*
 
-### 4.2 What the interviews revealed
+### 4.2 מה עלה בראיונות
 
-Three themes came up again and again:
+שלושה נושאים חזרו שוב ושוב:
 
-1. **"I'll only believe it when I see it."** People are curious but cautious. They do not want promises; they want proof.
-2. **"Let me try first."** Most interviewees said they would want a trial period, not an immediate purchase.
-3. **"I don't want to become a pilot."** People wanted the experience of travelling by air without having to learn to fly.
+1. **"אאמין רק כשאראה."** אנשים סקרנים אבל זהירים. הם לא רוצים הבטחות; הם רוצים הוכחות.
+2. **"תנו לי לנסות קודם."** רוב המרואיינים אמרו שהיו רוצים תקופת ניסיון, ולא רכישה מיידית.
+3. **"אני לא רוצה להפוך לטייס."** אנשים רצו את החוויה של נסיעה באוויר בלי ללמוד להטיס.
 
-These three insights shaped the SkyShift trial program directly:
+שלוש התובנות האלה עיצבו ישירות את תוכנית הניסוי של SkyShift:
 
-- A **one-month trial**, so people can try before deciding.
-- A **measurable target** based on the participant's own travel habits, so the trial reflects real daily life.
-- A **planned lottery for the vehicle**, to encourage real, consistent use during the trial.
-- A design in which participants **do not pilot** the vehicle themselves during the trial (see SKS-KB-006 and SKS-KB-007).
+- **ניסוי של חודש**, כדי שאנשים יוכלו לנסות לפני שהם מחליטים.
+- **יעד מדיד** שמבוסס על הרגלי הנסיעה של המשתתף עצמו, כדי שהניסוי ישקף חיים אמיתיים.
+- **הגרלה מתוכננת על הרכב**, כדי לעודד שימוש אמיתי ועקבי במהלך הניסוי.
+- תכנון שבו המשתתפים **אינם מטיסים** את הרכב בעצמם במהלך הניסוי (ראו SKS-KB-006 ו-SKS-KB-007).
 
-## 5. The barriers we must overcome
+## 5. המכשולים שעלינו להתגבר עליהם
 
-SkyShift does not hide the barriers to personal air mobility. The venture's strategy is built around them.
+SkyShift לא מסתיר את המכשולים בדרך לתעופה אישית. האסטרטגיה של המיזם בנויה סביבם.
 
-| Barrier | SkyShift's response |
+| מכשול | התשובה של SkyShift |
 |---|---|
-| Safety | A safety framework aligned with the strictest category of international standards (SKS-KB-007) |
-| Regulation | No flights before full regulatory approval; close attention to evolving frameworks |
-| Public trust | Full transparency about status; clear labelling of illustrations and design targets |
-| Noise | Electric ducted rotors and a noise design target (SKS-KB-006) |
-| Infrastructure | Take-off and landing only at designated "SkyPads", never from public roads |
-| Cost | A trial and lottery model, so the first participants do not have to buy anything |
-| Habit | A vehicle that starts from the familiar form of a car |
+| בטיחות | מסגרת בטיחות שמותאמת לקטגוריה המחמירה ביותר בתקנים הבינלאומיים (SKS-KB-007) |
+| רגולציה | אין טיסות לפני אישור רגולטורי מלא; מעקב צמוד אחרי המסגרות המתפתחות |
+| אמון הציבור | שקיפות מלאה לגבי המצב; סימון ברור של המחשות ושל יעדי תכנון |
+| רעש | מדחפים חשמליים בתוך תעלות, ויעד תכנון לרעש (SKS-KB-006) |
+| תשתית | המראה ונחיתה רק מ"SkyPads" ייעודיים, לעולם לא מכביש ציבורי |
+| עלות | מודל של ניסוי והגרלה, כך שהמשתתפים הראשונים לא צריכים לקנות דבר |
+| הרגל | רכב שמתחיל מהצורה המוכרת של מכונית |
 
-## 6. Our answer in one paragraph
+## 6. התשובה שלנו בפסקה אחת
 
-SkyShift's answer to the problem is **not** a single aircraft and not a promise of flying cars tomorrow morning. It is a structured path: understand how people travel, build a fair trial program around their real habits, design a vehicle that feels like a car and is held to aviation safety standards, and build the digital platform that runs it all. Above all, it means being honest at every stage about what exists and what does not yet exist.
+התשובה של SkyShift לבעיה **אינה** כלי טיס יחיד, ואינה הבטחה למכוניות מעופפות מחר בבוקר. היא מסלול מובנה: להבין איך אנשים נוסעים, לבנות תוכנית ניסוי הוגנת סביב ההרגלים האמיתיים שלהם, לתכנן רכב שמרגיש כמו מכונית ועומד בתקני בטיחות של תעופה, ולבנות את הפלטפורמה הדיגיטלית שמפעילה את כל זה. ומעל הכול, להיות כנים בכל שלב לגבי מה שקיים ומה שעדיין לא.
 
-> "A car on the road. Options in the sky. SkyShift: imagining the next way forward."
+> "מכונית בכביש. אפשרויות בשמיים. SkyShift: לדמיין את הדרך הבאה."

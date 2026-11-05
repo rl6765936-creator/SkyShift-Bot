@@ -1,104 +1,104 @@
-# Operations, Roles and Support
+# תפעול, תפקידים ותמיכה
 
-**Document ID:** SKS-KB-010
-**Version:** 1.0
-**Owner:** Operations & Participant Experience
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-010
+**גרסה:** 1.0
+**אחראי:** תפעול וחוויית משתתף
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. Roles in the SkyShift platform
+## 1. תפקידים בפלטפורמת SkyShift
 
-The platform has two roles.
+בפלטפורמה יש שני תפקידים.
 
-### 1.1 Participant (User)
+### 1.1 משתתף (User)
 
-A participant is a person who registered in the platform. A participant can:
+משתתף הוא אדם שנרשם לפלטפורמה. משתתף יכול:
 
-- Browse available vehicles and select one for a one-month trial.
-- See their current vehicle.
-- Record completed flights within the trial month.
-- See their personal dashboard: target, completed flights, completion percentage and lottery eligibility.
-- See their own profile.
+- לעיין ברכבים הפנויים ולבחור אחד לניסוי של חודש.
+- לראות את הרכב הנוכחי שלו.
+- לתעד טיסות שהושלמו בתוך חודש הניסוי.
+- לראות את האזור האישי שלו: יעד, טיסות שהושלמו, אחוז השלמה וזכאות להגרלה.
+- לראות את הפרופיל שלו.
 
-A participant **cannot** see other participants' data, change vehicle statuses or access manager screens.
+משתתף **אינו יכול** לראות נתונים של משתתפים אחרים, לשנות סטטוס של רכבים או להיכנס למסכי הניהול.
 
-### 1.2 Manager
+### 1.2 מנהל (Manager)
 
-A Manager is a member of the SkyShift operations team. Managers run the trial: they manage the fleet, follow participation, and review flights and assignments to keep the trial fair. The management workspace is protected and is not available to participants. No one can register as a Manager or gain management permissions through the platform.
+מנהל הוא חבר בצוות התפעול של SkyShift. המנהלים מפעילים את הניסוי: הם מנהלים את הצי, עוקבים אחר ההשתתפות, ובודקים טיסות והקצאות כדי לשמור על הוגנות הניסוי. אזור הניהול מוגן ואינו זמין למשתתפים. אף אחד לא יכול להירשם כמנהל או לקבל הרשאות ניהול דרך הפלטפורמה.
 
-## 2. Fleet operations
+## 2. תפעול הצי
 
-### 2.1 Adding a vehicle to the fleet
+### 2.1 הוספת רכב לצי
 
-New fleet vehicles are created only from catalog models that are not already in the fleet. The vehicle's details come from the catalog and cannot be changed by hand. A new vehicle starts in **Available** status, and participants can select it at once.
+רכבים חדשים בצי נוצרים רק מדגמי קטלוג שעוד לא נמצאים בצי. פרטי הרכב מגיעים מהקטלוג ואי אפשר לשנות אותם ידנית. רכב חדש מתחיל בסטטוס **פנוי**, והמשתתפים יכולים לבחור בו מיד.
 
-### 2.2 Changing vehicle status
+### 2.2 שינוי סטטוס של רכב
 
-| From | Allowed changes |
+| מסטטוס | שינויים מותרים |
 |---|---|
-| Available | Maintenance, Unavailable, Retired |
-| Maintenance | Available, Unavailable, Retired |
-| Unavailable | Available, Maintenance, Retired |
-| In use | **None** while the assignment is active |
-| Retired | **None**; retired is final |
+| פנוי | תחזוקה, לא זמין, הוצא משירות |
+| תחזוקה | פנוי, לא זמין, הוצא משירות |
+| לא זמין | פנוי, תחזוקה, הוצא משירות |
+| בשימוש | **אין** כל עוד ההקצאה פעילה |
+| הוצא משירות | **אין**; הוצא משירות הוא סופי |
 
-### 2.3 Maintenance routine (planned for the pilot)
+### 2.3 שגרת תחזוקה (מתוכננת לפיילוט)
 
-- **Daily:** visual inspection and automatic system check before the first flight.
-- **Periodic:** inspections according to flight hours, cycles and calendar time, as defined in the maintenance programme.
-- **After any unusual event:** the vehicle is moved to Maintenance until it is inspected and released.
-- **Records:** every maintenance action is documented and signed.
+- **יומית:** בדיקה חזותית ובדיקת מערכות אוטומטית לפני הטיסה הראשונה.
+- **תקופתית:** בדיקות לפי שעות טיסה, מחזורים וזמן קלנדרי, כמוגדר בתוכנית התחזוקה.
+- **אחרי כל אירוע חריג:** הרכב מועבר לתחזוקה עד שהוא נבדק ומשוחרר.
+- **תיעוד:** כל פעולת תחזוקה מתועדת וחתומה.
 
-### 2.4 End of a trial month
+### 2.4 סוף חודש ניסוי
 
-When a participant's trial month ends, the operations team inspects the vehicle and returns it to the available pool. Automatic return at the end of the trial is planned.
+כשחודש הניסוי של משתתף מסתיים, צוות התפעול בודק את הרכב ומחזיר אותו למאגר הפנוי. החזרה אוטומטית בסוף הניסוי מתוכננת.
 
-## 3. Monitoring participation
+## 3. מעקב אחר ההשתתפות
 
-The operations team follows three main indicators:
+צוות התפעול עוקב אחר שלושה מדדים עיקריים:
 
-- **Utilization:** what share of the active fleet is currently in use.
-- **Engagement:** what share of registered participants has ever started a trial.
-- **Compliance:** the average completion percentage of participants with an active trial.
+- **ניצולת:** איזה חלק מהצי הפעיל נמצא כרגע בשימוש.
+- **מעורבות:** איזה חלק מהמשתתפים הרשומים התחיל אי פעם ניסוי.
+- **עמידה ביעד:** אחוז ההשלמה הממוצע של המשתתפים שיש להם ניסוי פעיל.
 
-When compliance is low, the team reaches out to participants to understand whether there are obstacles, such as a target that does not match their real habits, or technical difficulties in recording flights.
+כשהעמידה ביעד נמוכה, הצוות פונה למשתתפים כדי להבין אם יש מכשולים, למשל יעד שלא תואם להרגלים האמיתיים שלהם, או קשיים טכניים בתיעוד טיסות.
 
-## 4. Participant support
+## 4. תמיכה במשתתפים
 
-### 4.1 How to contact support
+### 4.1 איך פונים לתמיכה
 
-- **Email:** support@skyshift.demo
-- **Response time target:** within two business days.
-- **Business days:** Sunday to Thursday.
+- **דוא"ל:** support@skyshift.demo
+- **יעד זמן מענה:** תוך שני ימי עבודה.
+- **ימי עבודה:** ראשון עד חמישי.
 
-When writing to support, please include the email address you registered with and a short description of the issue. **Never send your password**, to support or to anyone else. SkyShift will never ask for it.
+כשכותבים לתמיכה, יש לציין את כתובת הדוא"ל שאיתה נרשמתם ותיאור קצר של הבעיה. **לעולם אין לשלוח את הסיסמה**, לא לתמיכה ולא לאף אחד אחר. SkyShift לעולם לא יבקש אותה.
 
-### 4.2 Common requests
+### 4.2 פניות נפוצות
 
-| Request | Answer |
+| פנייה | תשובה |
 |---|---|
-| I forgot my password | Password reset is not yet available in the platform. Contact support. |
-| I want to change my average daily trips | Profile editing is not yet available. Contact support before starting your trial. |
-| I want to change my vehicle | You can hold one active vehicle at a time, for the whole trial month. Contact support in special circumstances. |
-| I recorded a flight with the wrong time | Recorded flights cannot be edited in the platform. Contact support. |
-| I believe my eligibility is wrong | You may request a review within 14 days of the end of your trial month (SKS-KB-005). |
-| I have a safety concern | Write to safety@skyshift.demo. Every report is handled confidentially. |
+| שכחתי את הסיסמה | איפוס סיסמה עדיין לא זמין בפלטפורמה. יש לפנות לתמיכה. |
+| אני רוצה לשנות את ממוצע הנסיעות היומי | עריכת פרופיל עדיין לא זמינה. יש לפנות לתמיכה לפני תחילת הניסוי. |
+| אני רוצה להחליף רכב | אפשר להחזיק רכב פעיל אחד בכל פעם, לאורך כל חודש הניסוי. במקרים מיוחדים יש לפנות לתמיכה. |
+| תיעדתי טיסה עם שעה שגויה | אי אפשר לערוך טיסות שתועדו בפלטפורמה. יש לפנות לתמיכה. |
+| אני חושב שהזכאות שלי שגויה | אפשר לבקש בדיקה בתוך 14 יום מסוף חודש הניסוי (SKS-KB-005). |
+| יש לי חשש בטיחותי | יש לכתוב אל safety@skyshift.demo. כל דיווח מטופל בסודיות. |
 
-### 4.3 Features not yet available
+### 4.3 תכונות שעדיין לא זמינות
 
-The following are **not** available in the current platform: profile editing, password reset, personal flight history list, flight booking, flight routes, flight hours, editing assignments, editing users, report export, and in-app chat. Some of them appear in the roadmap (SKS-KB-013).
+התכונות הבאות **אינן** זמינות בפלטפורמה הנוכחית: עריכת פרופיל, איפוס סיסמה, רשימת היסטוריית טיסות אישית, הזמנת טיסות, מסלולי טיסה, שעות טיסה, עריכת הקצאות, עריכת משתמשים, ייצוא דוחות וצ'אט בתוך האפליקציה. חלקן מופיעות במפת הדרכים (SKS-KB-013).
 
-## 5. Media and partnerships
+## 5. תקשורת ושותפויות
 
-- Media inquiries: **media@skyshift.demo**
-- Partnership inquiries (SkyPad sites, technology, research): **partners@skyshift.demo**
+- פניות תקשורת: **media@skyshift.demo**
+- פניות לשותפויות (אתרי SkyPad, טכנולוגיה, מחקר): **partners@skyshift.demo**
 
-SkyShift does not publish information about partners before agreements are signed and both sides approve publication.
+SkyShift לא מפרסם מידע על שותפים לפני שנחתמו הסכמים ושני הצדדים אישרו את הפרסום.
 
-## 6. Service principles
+## 6. עקרונות השירות
 
-1. **Clarity:** every participant should know which vehicle is theirs, how far they have come, and what is left to do.
-2. **Respect:** polite, patient service in Hebrew and English.
-3. **Accuracy:** support answers are based on the platform's data and published rules, not on guesses.
-4. **Privacy:** personal information is shared only with the participant it belongs to.
+1. **בהירות:** כל משתתף צריך לדעת איזה רכב שלו, כמה התקדם ומה נשאר לעשות.
+2. **כבוד:** שירות מנומס וסבלני בעברית ובאנגלית.
+3. **דיוק:** תשובות התמיכה מבוססות על נתוני הפלטפורמה ועל הכללים המפורסמים, לא על ניחושים.
+4. **פרטיות:** מידע אישי משותף רק עם המשתתף שאליו הוא שייך.

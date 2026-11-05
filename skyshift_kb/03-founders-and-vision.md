@@ -1,100 +1,100 @@
-# Founders, Leadership and Vision
+# מייסדים, הנהלה וחזון
 
-**Document ID:** SKS-KB-003
-**Version:** 1.2
-**Owner:** Office of the CEO
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-003
+**גרסה:** 1.2
+**אחראי:** לשכת המנכ"ל
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. Vision
+## 1. חזון
 
-**"A future in which road congestion does not decide our way on its own."**
+**"עתיד שבו עומסי התנועה בכביש אינם קובעים לבדם את הדרך שלנו."**
 
-SkyShift was born from the vision of combining the familiarity of a car with the possibilities of movement in the sky, and of testing a future in which the road is not the only way forward. In this future, a person can leave home in a vehicle that feels familiar and, when the road is blocked, continue above it, safely, quietly and within clear rules.
+SkyShift נולד מהחזון לשלב בין המוכרות של מכונית לבין האפשרויות של תנועה בשמיים, ולבחון עתיד שבו הכביש אינו הדרך היחידה קדימה. בעתיד הזה אדם יכול לצאת מהבית ברכב שמרגיש מוכר, וכשהכביש חסום, להמשיך מעליו: בבטחה, בשקט ובתוך כללים ברורים.
 
-## 2. Mission
+## 2. ייעוד
 
-**To give people back the time they lose on the road, by building and running a responsible, measurable and fair trial of personal air mobility.**
+**להחזיר לאנשים את הזמן שהם מאבדים בכביש, על ידי בנייה והפעלה של ניסוי אחראי, מדיד והוגן בתעופה אישית.**
 
-SkyShift carries out this mission in three ways:
+SkyShift ממלא את הייעוד הזה בשלוש דרכים:
 
-1. **Building** a vehicle concept that combines a car's familiarity with aviation-grade safety.
-2. **Running** a trial program based on the real travel habits of real participants.
-3. **Measuring** and publishing what is learned, so that decisions about the future of personal air mobility are based on evidence.
+1. **בונה** קונספט רכב שמשלב את המוכרות של מכונית עם בטיחות ברמה של תעופה.
+2. **מפעיל** תוכנית ניסוי שמבוססת על הרגלי הנסיעה האמיתיים של משתתפים אמיתיים.
+3. **מודד** ומפרסם את מה שנלמד, כדי שהחלטות על עתיד התעופה האישית יתבססו על ראיות.
 
-## 3. Values
+## 3. ערכים
 
-| Value | What it means in practice |
+| ערך | מה זה אומר בפועל |
 |---|---|
-| **Safety first** | No compromise on safety for speed, cost or publicity. A flight that is not safe does not take place. |
-| **Honesty** | A demonstration is called a demonstration. An illustration is called an illustration. We never present a design target as a proven fact. |
-| **Fairness** | Eligibility is calculated by fixed rules, the same for every participant. The draw is supervised. |
-| **Respect for people's time** | Everything we build, from the vehicle to the platform, is meant to save people time and effort, not add to it. |
-| **Responsibility** | Toward participants, toward the public on the ground, and toward the airspace we share. |
-| **Simplicity** | One vehicle per participant, one month per trial, one clear target. |
+| **בטיחות לפני הכול** | אין פשרות בבטיחות בשביל מהירות, עלות או פרסום. טיסה שאינה בטוחה לא מתקיימת. |
+| **כנות** | הדגמה נקראת הדגמה. המחשה נקראת המחשה. לעולם לא מציגים יעד תכנון כעובדה מוכחת. |
+| **הוגנות** | הזכאות מחושבת לפי כללים קבועים, זהים לכל משתתף. ההגרלה מפוקחת. |
+| **כבוד לזמן של אנשים** | כל מה שאנחנו בונים, מהרכב ועד הפלטפורמה, נועד לחסוך לאנשים זמן ומאמץ, לא להוסיף להם. |
+| **אחריות** | כלפי המשתתפים, כלפי הציבור שעל הקרקע, וכלפי המרחב האווירי המשותף לכולנו. |
+| **פשטות** | רכב אחד לכל משתתף, חודש אחד לכל ניסוי, יעד אחד ברור. |
 
-## 4. The founding team
+## 4. צוות המייסדים
 
-### Yonatan Peretz, Co-founder and Chief Executive Officer
+### יונתן פרץ, מייסד שותף ומנכ"ל
 
-Yonatan is a transport planner with more than fifteen years of experience in traffic modelling and public transport planning. Before SkyShift he led planning teams on traffic flow and commuter behaviour projects. The idea for SkyShift came to him during a traffic jam, in a conversation with his co-founder.
+יונתן הוא מתכנן תחבורה עם יותר מחמש עשרה שנות ניסיון במידול תנועה ובתכנון תחבורה ציבורית. לפני SkyShift הוביל צוותי תכנון בפרויקטים של זרימת תנועה והתנהגות של נוסעים יומיים. הרעיון ל-SkyShift עלה אצלו בפקק, בשיחה עם המייסד השותף שלו.
 
-Yonatan is responsible for strategy, partnerships, regulation and the overall direction of the venture.
+יונתן אחראי על האסטרטגיה, השותפויות, הרגולציה והכיוון הכללי של המיזם.
 
-> "We counted the hours we lose every year on the same piece of road. At some point we stopped counting and started planning."
+> "ספרנו את השעות שאנחנו מאבדים בכל שנה על אותו קטע כביש. בשלב מסוים הפסקנו לספור והתחלנו לתכנן."
 
-### Eliav Ben-Ami, Co-founder and Chief Technology Officer
+### אליאב בן-עמי, מייסד שותף ומנהל הטכנולוגיה (CTO)
 
-Eliav is a software architect specializing in reliable, transactional systems. He has designed systems in which several users compete for a limited resource at the same moment, exactly the challenge at the heart of the SkyShift platform, where two participants may try to select the same vehicle at the same time.
+אליאב הוא ארכיטקט תוכנה שמתמחה במערכות אמינות ומבוססות טרנזקציות. הוא תכנן מערכות שבהן כמה משתמשים מתחרים על משאב מוגבל באותו רגע, בדיוק האתגר שבלב פלטפורמת SkyShift, שבה שני משתתפים עשויים לנסות לבחור את אותו רכב באותו זמן.
 
-Eliav leads the development of the SkyShift platform: the server, the database, the participant and manager interfaces, and the future integration with vehicle telemetry.
+אליאב מוביל את הפיתוח של פלטפורמת SkyShift: השרת, מסד הנתונים, ממשקי המשתתפים והמנהלים, והחיבור העתידי לנתוני הרכבים.
 
-> "In a system where vehicles are a limited resource, fairness is not a slogan. It is a transaction that has exactly one winner."
+> "במערכת שבה הרכבים הם משאב מוגבל, הוגנות היא לא סיסמה. היא טרנזקציה עם מנצח אחד בדיוק."
 
-### Dr. Avraham Shachar, Chief Safety and Airworthiness Officer
+### ד"ר אברהם שחר, ממונה הבטיחות והכשירות האווירית
 
-Avraham holds a doctorate in aerospace engineering and has many years of experience in system safety assessment and airworthiness. He joined SkyShift in mid-2025 and wrote the first version of the SkyShift Safety Framework (SSF).
+לאברהם דוקטורט בהנדסת אווירונאוטיקה וניסיון רב בהערכת בטיחות מערכות ובכשירות אווירית. הוא הצטרף ל-SkyShift באמצע 2025 וכתב את הגרסה הראשונה של מסגרת הבטיחות של SkyShift (SSF).
 
-Avraham has the independent authority to stop any activity he considers unsafe. This authority is written into the venture's governance rules and cannot be overridden by commercial considerations.
+לאברהם יש סמכות עצמאית לעצור כל פעילות שהוא רואה בה סכנה. הסמכות הזו כתובה בכללי הממשל של המיזם, ושיקולים מסחריים אינם יכולים לבטל אותה.
 
-> "Our standard is simple: a single failure must never be allowed to become a catastrophe."
+> "הסטנדרט שלנו פשוט: אסור לאפשר לתקלה בודדת להפוך לאסון."
 
-### Moshe Levinger, Head of Operations and Participant Experience
+### משה לוינגר, ראש התפעול וחוויית המשתתף
 
-Moshe comes from fleet operations and customer service management. He is responsible for the participant journey, from registration through the trial month to the lottery, and for the operational management of the fleet: availability, maintenance and vehicle status.
+משה מגיע מתחום תפעול ציי רכב וניהול שירות לקוחות. הוא אחראי על מסע המשתתף, מההרשמה דרך חודש הניסוי ועד ההגרלה, ועל התפעול השוטף של הצי: זמינות, תחזוקה וסטטוס הרכבים.
 
-> "A participant should always know three things: which vehicle is theirs, how far they've come, and what's left to do."
+> "משתתף צריך לדעת תמיד שלושה דברים: איזה רכב שלו, כמה התקדם, ומה נשאר לעשות."
 
-## 5. Governance
+## 5. ממשל
 
-SkyShift's decisions are guided by a small set of governance rules:
+ההחלטות של SkyShift מונחות על ידי מספר קטן של כללי ממשל:
 
-1. **Safety veto.** The Chief Safety and Airworthiness Officer may stop any flight, test or activity on safety grounds. Only a documented safety review can lift such a stop.
-2. **Published rules.** Trial rules, eligibility rules and lottery regulations are published before they take effect and do not change in the middle of a trial month.
-3. **Separation of duties.** The team that develops the platform does not take part in running the draw. The draw is supervised by an independent observer (see SKS-KB-005).
-4. **Transparency of status.** Every public communication must state clearly whether something is live, in demonstration or planned.
+1. **וטו בטיחות.** ממונה הבטיחות והכשירות האווירית רשאי לעצור כל טיסה, ניסוי או פעילות מטעמי בטיחות. רק בדיקת בטיחות מתועדת יכולה לבטל עצירה כזו.
+2. **כללים מפורסמים.** כללי הניסוי, כללי הזכאות ותקנון ההגרלה מתפרסמים לפני שהם נכנסים לתוקף, ואינם משתנים באמצע חודש ניסוי.
+3. **הפרדת תפקידים.** הצוות שמפתח את הפלטפורמה אינו לוקח חלק בעריכת ההגרלה. ההגרלה מפוקחת על ידי משקיף בלתי תלוי (ראו SKS-KB-005).
+4. **שקיפות לגבי המצב.** בכל תקשורת ציבורית חייב להיות ברור אם משהו פעיל, בהדגמה או מתוכנן.
 
-## 6. Advisory circle
+## 6. מעגל יועצים
 
-SkyShift consults a voluntary advisory circle with experience in aviation safety, transport regulation, data protection and consumer law. The advisory circle has no decision-making authority; its role is to challenge the team's assumptions and point out risks.
+SkyShift מתייעץ עם מעגל יועצים התנדבותי בעל ניסיון בבטיחות תעופה, ברגולציה של תחבורה, בהגנת מידע ובדיני הגנת הצרכן. למעגל היועצים אין סמכות החלטה; תפקידו לאתגר את ההנחות של הצוות ולהצביע על סיכונים.
 
-## 7. Guiding principles for design
+## 7. עקרונות מנחים לתכנון
 
-The founders defined five design principles that guide every product decision:
+המייסדים הגדירו חמישה עקרונות תכנון שמנחים כל החלטה על המוצר:
 
-1. **Start from the car.** The vehicle should look and feel like a car, so people feel at home in it.
-2. **The participant is not the pilot.** During the trial, participants travel; they do not fly the aircraft (see SKS-KB-006).
-3. **The sky is entered only from designated points.** Take-off and landing only at approved SkyPads, never from a public road.
-4. **The server decides.** Eligibility, trial dates and vehicle availability are calculated by the server according to fixed rules. The interface displays them; it never invents them.
-5. **Every number has a label.** Every specification is labelled as verified, illustrative or a design target.
+1. **להתחיל מהמכונית.** הרכב צריך להיראות ולהרגיש כמו מכונית, כדי שאנשים ירגישו בו בבית.
+2. **המשתתף אינו הטייס.** במהלך הניסוי המשתתפים נוסעים; הם לא מטיסים את כלי הטיס (ראו SKS-KB-006).
+3. **נכנסים לשמיים רק מנקודות ייעודיות.** המראה ונחיתה רק מ-SkyPads מאושרים, לעולם לא מכביש ציבורי.
+4. **השרת מחליט.** הזכאות, תאריכי הניסוי וזמינות הרכבים מחושבים על ידי השרת לפי כללים קבועים. הממשק מציג אותם, ולעולם לא ממציא אותם.
+5. **לכל מספר יש תווית.** כל נתון מסומן כמאומת, כהמחשה או כיעד תכנון.
 
-## 8. Where the vision leads
+## 8. לאן החזון מוביל
 
-In the long term, SkyShift sees a world in which:
+בטווח הארוך SkyShift רואה עולם שבו:
 
-- A family can choose, every morning, whether today's trip is on the road or partly in the air.
-- Personal air vehicles share the sky safely under clear rules, at low altitudes and in defined corridors.
-- The time saved goes back to what matters: family, study, work and rest.
+- משפחה יכולה לבחור בכל בוקר אם הנסיעה של היום תהיה בכביש, או חלקה באוויר.
+- כלי טיס אישיים חולקים את השמיים בבטחה, לפי כללים ברורים, בגובה נמוך ובנתיבים מוגדרים.
+- הזמן שנחסך חוזר למה שחשוב: משפחה, לימוד, עבודה ומנוחה.
 
-SkyShift knows that this world will not arrive overnight. The venture's role is to take the first responsible steps toward it, and to say clearly, at every stage, where those steps have reached.
+SkyShift יודע שהעולם הזה לא יגיע בן לילה. התפקיד של המיזם הוא לעשות את הצעדים האחראיים הראשונים לקראתו, ולומר בבירור, בכל שלב, לאן הגיעו הצעדים האלה.

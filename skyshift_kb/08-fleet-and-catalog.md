@@ -1,138 +1,138 @@
-# The Fleet and the Vehicle Catalog
+# צי הרכבים וקטלוג הרכבים
 
-**Document ID:** SKS-KB-008
-**Version:** 1.1
-**Owner:** Operations (Fleet), with Engineering
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-008
+**גרסה:** 1.1
+**אחראי:** תפעול (צי), יחד עם הנדסה
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. Catalog and fleet: two different things
+## 1. קטלוג וצי: שני דברים שונים
 
-The SkyShift platform separates two concepts:
+פלטפורמת SkyShift מבחינה בין שני מושגים:
 
-- **The catalog** is the list of **vehicle models** that the fleet can be built from. It contains **22 models**. Each catalog model has a manufacturer, a model name, a number of seats, a maximum road speed, an image, and short descriptions in English and Hebrew.
-- **The fleet** is the set of **actual vehicles** that participants can select. A Manager creates a fleet vehicle by choosing a catalog model. Each catalog model can be used for **only one** fleet vehicle at a time.
+- **הקטלוג** הוא רשימת **דגמי הרכב** שאפשר לבנות מהם את הצי. יש בו **22 דגמים**. לכל דגם בקטלוג יש יצרן, שם דגם, מספר מושבים, מהירות כביש מרבית, תמונה ותיאורים קצרים באנגלית ובעברית.
+- **הצי** הוא אוסף **הרכבים בפועל** שהמשתתפים יכולים לבחור. מנהל יוצר רכב בצי על ידי בחירת דגם מהקטלוג. כל דגם בקטלוג יכול לשמש **רק** רכב אחד בצי בכל זמן.
 
-When a Manager creates a vehicle, its details (manufacturer, model, road speed, seats, description) are **filled in automatically from the catalog and locked**. They cannot be edited by hand, so the information shown to participants is always consistent with the catalog.
+כשמנהל יוצר רכב, הפרטים שלו (יצרן, דגם, מהירות כביש, מושבים, תיאור) **ממולאים אוטומטית מהקטלוג וננעלים**. אי אפשר לערוך אותם ידנית, ולכן המידע שמוצג למשתתפים תמיד תואם לקטלוג.
 
-## 2. The most important thing to know about the catalog images
+## 2. הדבר החשוב ביותר לדעת על תמונות הקטלוג
 
-> **Every catalog image is an edited picture of a road car with added propellers. No road car in the catalog can fly.**
+> **כל תמונה בקטלוג היא תמונה ערוכה של מכונית כביש שנוספו לה מדחפים. אף מכונית כביש בקטלוג אינה יכולה לטוס.**
 
-The images are **illustrations** of SkyShift's idea, a familiar car that can rise above the traffic. They are **not** SkyCars (SKS-KB-006), and they are **not** products of SkyShift. SkyShift has **no connection** to the manufacturers of these cars, and the manufacturers have not approved or endorsed SkyShift in any way. Every vehicle card in the platform states:
+התמונות הן **המחשות** של הרעיון של SkyShift: מכונית מוכרת שיכולה להתרומם מעל הפקק. הן **אינן** SkyCars (SKS-KB-006), והן **אינן** מוצרים של SkyShift. ל-SkyShift **אין קשר** ליצרני המכוניות האלה, והיצרנים לא אישרו את SkyShift ולא תמכו בו בשום אופן. בכל כרטיס רכב בפלטפורמה כתוב:
 
-> "Propellers are a SkyShift illustration; the road car does not fly."
+> "המדחפים הם המחשה של SkyShift; מכונית הכביש אינה טסה."
 
-SkyShift stores **no flight specifications** for catalog vehicles. The only specifications stored are **seats** and **maximum road speed**.
+SkyShift **לא שומר נתוני טיסה** לרכבי הקטלוג. הנתונים היחידים שנשמרים הם **מספר המושבים** ו**מהירות הכביש המרבית**.
 
-## 3. Accuracy labels
+## 3. תוויות דיוק
 
-Every specification in the catalog carries its own **accuracy label**:
+לכל נתון בקטלוג יש **תווית דיוק** משלו:
 
-| Label | Meaning |
+| תווית | משמעות |
 |---|---|
-| **Manufacturer specification** (Verified) | Taken from an official manufacturer document |
-| **Illustrative** | A plausible SkyShift sample value. **Not** a manufacturer specification |
+| **מפרט יצרן** (Verified, מאומת) | נלקח ממסמך רשמי של היצרן |
+| **להמחשה** (Illustrative) | ערך לדוגמה סביר של SkyShift. **אינו** מפרט יצרן |
 
-Separately, each model carries an **identification label**:
+בנפרד, לכל דגם יש **תווית זיהוי**:
 
-| Label | Meaning |
+| תווית | משמעות |
 |---|---|
-| **Identified** | The manufacturer and model in the image have been identified with reasonable confidence |
-| **Visual inspiration** | The exact model is not verified; the image serves as visual inspiration only. Such models carry only illustrative figures |
+| **מזוהה** (Identified) | היצרן והדגם שבתמונה זוהו בביטחון סביר |
+| **השראה חזותית** (Visual inspiration) | הדגם המדויק לא אומת; התמונה משמשת השראה חזותית בלבד. לדגמים כאלה יש רק נתונים להמחשה |
 
-Identification and accuracy are separate: a correctly identified car can still have illustrative figures. Concept cars and camouflaged prototypes have no production specifications, so their figures are illustrative.
+הזיהוי והדיוק נפרדים: מכונית שזוהתה נכון עדיין יכולה לשאת נתונים להמחשה. למכוניות קונספט ולאבות טיפוס מוסווים אין מפרט ייצור, ולכן הנתונים שלהם להמחשה.
 
-## 4. The 22 catalog models
+## 4. 22 דגמי הקטלוג
 
-| # | Manufacturer and model (illustration) | Identification | Seats | Max road speed (km/h) |
+| # | יצרן ודגם (המחשה) | זיהוי | מושבים | מהירות כביש מרבית (קמ"ש) |
 |---|---|---|---|---|
-| 1 | Audi Q3 (2nd generation) | Identified | 5 (Illustrative) | 210 (Illustrative) |
-| 2 | Geely Geometry E (uncertain) | Visual inspiration | 5 (Illustrative) | 150 (Illustrative) |
-| 3 | Koenigsegg Regera | Identified | 2 (Illustrative) | 400 (Illustrative) |
-| 4 | Bugatti Chiron Super Sport | Identified | 2 (Illustrative) | 440 (Verified, electronically limited) |
-| 5 | Tesla Model X | Identified | 5 (Illustrative) | 250 (Illustrative) |
-| 6 | BMW i Vision Circular (concept) | Identified | 4 (Verified) | 180 (Illustrative) |
-| 7 | Mercedes-Benz CLE Coupé prototype (uncertain) | Visual inspiration | 4 (Illustrative) | 250 (Illustrative) |
-| 8 | Mercedes-Benz Concept CLA Class (concept) | Identified | 5 (Illustrative) | 210 (Illustrative) |
-| 9 | Nissan N7 | Identified | 5 (Illustrative) | 170 (Illustrative) |
-| 10 | BMW Vision Neue Klasse (concept) | Identified | 5 (Illustrative) | 200 (Illustrative) |
-| 11 | BMW 5 Series (G30, art livery) | Identified | 5 (Illustrative) | 250 (Illustrative) |
-| 12 | Lancia Pu+Ra HPE (concept) | Identified | 4 (Illustrative) | 180 (Illustrative) |
-| 13 | Bestune Xiaoma (uncertain) | Visual inspiration | 4 (Illustrative) | 100 (Illustrative) |
-| 14 | Toyota Prius Plug-in Hybrid (5th generation) | Identified | 5 (Illustrative) | 175 (Illustrative) |
-| 15 | Škoda Kodiaq (2nd generation, prototype) | Identified | 5 (Illustrative) | 200 (Illustrative) |
-| 16 | Maserati GranCabrio (prototype) | Identified | 4 (Illustrative) | 300 (Illustrative) |
-| 17 | Unidentified hypercar | Visual inspiration | 2 (Illustrative) | 350 (Illustrative) |
-| 18 | Mercedes-Benz EQB | Identified | 5 (Illustrative) | 160 (Illustrative) |
-| 19 | MINI Countryman (3rd generation, prototype) | Identified | 5 (Verified) | 210 (Illustrative) |
-| 20 | Chery QQ Ice Cream | Identified | 4 (Illustrative) | 100 (Illustrative) |
-| 21 | MINI Cooper E (3-door) | Identified | 4 (Verified) | 160 (Verified) |
-| 22 | Peugeot E-3008 | Identified | 5 (Illustrative) | 170 (Illustrative) |
+| 1 | Audi Q3 (דור שני) | מזוהה | 5 (להמחשה) | 210 (להמחשה) |
+| 2 | Geely Geometry E (לא ודאי) | השראה חזותית | 5 (להמחשה) | 150 (להמחשה) |
+| 3 | Koenigsegg Regera | מזוהה | 2 (להמחשה) | 400 (להמחשה) |
+| 4 | Bugatti Chiron Super Sport | מזוהה | 2 (להמחשה) | 440 (מאומת, מוגבל אלקטרונית) |
+| 5 | Tesla Model X | מזוהה | 5 (להמחשה) | 250 (להמחשה) |
+| 6 | BMW i Vision Circular (קונספט) | מזוהה | 4 (מאומת) | 180 (להמחשה) |
+| 7 | Mercedes-Benz CLE Coupé, אב טיפוס (לא ודאי) | השראה חזותית | 4 (להמחשה) | 250 (להמחשה) |
+| 8 | Mercedes-Benz Concept CLA Class (קונספט) | מזוהה | 5 (להמחשה) | 210 (להמחשה) |
+| 9 | Nissan N7 | מזוהה | 5 (להמחשה) | 170 (להמחשה) |
+| 10 | BMW Vision Neue Klasse (קונספט) | מזוהה | 5 (להמחשה) | 200 (להמחשה) |
+| 11 | BMW 5 Series (G30, עיטוף אמנותי) | מזוהה | 5 (להמחשה) | 250 (להמחשה) |
+| 12 | Lancia Pu+Ra HPE (קונספט) | מזוהה | 4 (להמחשה) | 180 (להמחשה) |
+| 13 | Bestune Xiaoma (לא ודאי) | השראה חזותית | 4 (להמחשה) | 100 (להמחשה) |
+| 14 | Toyota Prius Plug-in Hybrid (דור חמישי) | מזוהה | 5 (להמחשה) | 175 (להמחשה) |
+| 15 | Škoda Kodiaq (דור שני, אב טיפוס) | מזוהה | 5 (להמחשה) | 200 (להמחשה) |
+| 16 | Maserati GranCabrio (אב טיפוס) | מזוהה | 4 (להמחשה) | 300 (להמחשה) |
+| 17 | מכונית-על לא מזוהה | השראה חזותית | 2 (להמחשה) | 350 (להמחשה) |
+| 18 | Mercedes-Benz EQB | מזוהה | 5 (להמחשה) | 160 (להמחשה) |
+| 19 | MINI Countryman (דור שלישי, אב טיפוס) | מזוהה | 5 (מאומת) | 210 (להמחשה) |
+| 20 | Chery QQ Ice Cream | מזוהה | 4 (להמחשה) | 100 (להמחשה) |
+| 21 | MINI Cooper E (3 דלתות) | מזוהה | 4 (מאומת) | 160 (מאומת) |
+| 22 | Peugeot E-3008 | מזוהה | 5 (להמחשה) | 170 (להמחשה) |
 
-**Summary of accuracy:** seats are verified for 3 models (6, 19, 21) and illustrative for 19. Maximum road speed is verified for 2 models (4, 21) and illustrative for 20.
+**סיכום הדיוק:** מספר המושבים מאומת ב-3 דגמים (6, 19, 21) ולהמחשה ב-19. מהירות הכביש המרבית מאומתת ב-2 דגמים (4, 21) ולהמחשה ב-20.
 
-### Sources of verified values
+### מקורות הערכים המאומתים
 
-| Model | Verified value | Source |
+| דגם | ערך מאומת | מקור |
 |---|---|---|
-| Bugatti Chiron Super Sport | Road top speed 440 km/h, electronically limited | Bugatti newsroom |
-| BMW i Vision Circular | 4 seats | BMW Group PressClub, September 2021 |
-| MINI Countryman | 5 seats | BMW Group PressClub technical specifications, March 2024 |
-| MINI Cooper E | 4 seats, road top speed 160 km/h | BMW Group PressClub technical specifications, November 2023 |
+| Bugatti Chiron Super Sport | מהירות מרבית בכביש 440 קמ"ש, מוגבלת אלקטרונית | חדר החדשות של Bugatti |
+| BMW i Vision Circular | 4 מושבים | BMW Group PressClub, ספטמבר 2021 |
+| MINI Countryman | 5 מושבים | מפרט טכני של BMW Group PressClub, מרץ 2024 |
+| MINI Cooper E | 4 מושבים, מהירות מרבית בכביש 160 קמ"ש | מפרט טכני של BMW Group PressClub, נובמבר 2023 |
 
-The MINI Countryman's road speed differs between official documents for different variants, so it is stored as illustrative.
+מהירות הכביש של MINI Countryman שונה בין מסמכים רשמיים של גרסאות שונות, ולכן היא נשמרת כנתון להמחשה.
 
-### How an illustrative value becomes verified
+### איך ערך להמחשה הופך למאומת
 
-To change a value to "Verified", the seats and road top speed are taken from **one** official document for **one** specific variant, and the catalog row is updated in a dedicated, reviewed database change.
+כדי לשנות ערך ל"מאומת", לוקחים את מספר המושבים ואת מהירות הכביש המרבית ממסמך רשמי **אחד** של גרסה ספציפית **אחת**, ומעדכנים את שורת הקטלוג בשינוי ייעודי ובדוק במסד הנתונים.
 
-## 5. Fleet vehicle statuses
+## 5. סטטוסים של רכבים בצי
 
-Each fleet vehicle has exactly one status at any time:
+לכל רכב בצי יש בדיוק סטטוס אחד בכל רגע:
 
-| Status | Meaning | Can a participant select it? |
+| סטטוס | משמעות | האם משתתף יכול לבחור בו? |
 |---|---|---|
-| **Available** | Ready for a new trial | Yes |
-| **In use** | Assigned to a participant in an active trial | No |
-| **Maintenance** | Undergoing inspection or maintenance | No |
-| **Unavailable** | Temporarily out of service for another reason | No |
-| **Retired** | Permanently removed from the active fleet | No (final status) |
+| **פנוי** (Available) | מוכן לניסוי חדש | כן |
+| **בשימוש** (In use) | מוקצה למשתתף בניסוי פעיל | לא |
+| **תחזוקה** (Maintenance) | בבדיקה או בתחזוקה | לא |
+| **לא זמין** (Unavailable) | מחוץ לשירות זמנית מסיבה אחרת | לא |
+| **הוצא משירות** (Retired) | הוצא לצמיתות מהצי הפעיל | לא (סטטוס סופי) |
 
-### Status rules
+### כללי הסטטוס
 
-- A new vehicle always starts as **Available**.
-- Only a **participant's selection** moves a vehicle from Available to **In use**.
-- While a vehicle is **In use**, a Manager **cannot** change its status.
-- **Retired** is final: a retired vehicle cannot return to any other status.
-- From Available, Maintenance or Unavailable, a Manager may move a vehicle to Available, Maintenance, Unavailable or Retired.
-- There is no "free" status setter; each change is a separate, checked action.
+- רכב חדש תמיד מתחיל כ**פנוי**.
+- רק **בחירה של משתתף** מעבירה רכב מפנוי ל**בשימוש**.
+- כל עוד רכב **בשימוש**, מנהל **אינו יכול** לשנות את הסטטוס שלו.
+- **הוצא משירות** הוא סטטוס סופי: רכב שהוצא משירות לא יכול לחזור לשום סטטוס אחר.
+- מפנוי, מתחזוקה או מלא זמין, מנהל רשאי להעביר רכב לפנוי, לתחזוקה, ללא זמין או להוצא משירות.
+- אין פעולה "חופשית" לשינוי סטטוס; כל שינוי הוא פעולה נפרדת ובדוקה.
 
-## 6. Personal experimental vehicles
+## 6. רכבים ניסיוניים אישיים
 
-When creating a fleet vehicle, a Manager can mark it as a **"personal experimental vehicle"**. This marks the vehicle as part of the group of experimental vehicles designated for personal trial use, from which the lottery prize vehicle is planned to come (see SKS-KB-005).
+כשמנהל יוצר רכב בצי, הוא יכול לסמן אותו כ**"רכב ניסיוני אישי"**. הסימון הזה מגדיר שהרכב שייך לקבוצת הרכבים הניסיוניים שמיועדים לשימוש אישי בניסוי, ומתוכה מתוכנן להגיע רכב הפרס בהגרלה (ראו SKS-KB-005).
 
-## 7. Deleting a fleet vehicle
+## 7. מחיקת רכב מהצי
 
-A Manager can delete a fleet vehicle **only** if:
+מנהל יכול למחוק רכב מהצי **רק** אם:
 
-- It is **Available**, and
-- It has **never** had an assignment or a recorded flight.
+- הוא **פנוי**, וגם
+- **אף פעם** לא הייתה לו הקצאה או טיסה מתועדת.
 
-A vehicle with history is never deleted, because history (assignments and flights) must be preserved. Such a vehicle should be **retired** instead. When an unused vehicle is deleted, its catalog model becomes available again for creating a new fleet vehicle.
+רכב עם היסטוריה לעולם לא נמחק, כי חייבים לשמור את ההיסטוריה (הקצאות וטיסות). במקום זאת, יש **להוציא אותו משירות**. כשמוחקים רכב שלא היה בשימוש, דגם הקטלוג שלו חוזר להיות זמין ליצירת רכב חדש בצי.
 
-## 8. What participants see on a vehicle card
+## 8. מה המשתתפים רואים בכרטיס רכב
 
-- Manufacturer and model (of the illustration).
-- Number of seats, with its accuracy label.
-- Maximum road speed, with its accuracy label.
-- A note if the model is visual inspiration only.
-- Short description, in the selected language.
-- The notice: "Propellers are a SkyShift illustration; the road car does not fly."
+- היצרן והדגם (של ההמחשה).
+- מספר המושבים, עם תווית הדיוק שלו.
+- מהירות הכביש המרבית, עם תווית הדיוק שלה.
+- ציון אם הדגם הוא השראה חזותית בלבד.
+- תיאור קצר, בשפה שנבחרה.
+- ההודעה: "המדחפים הם המחשה של SkyShift; מכונית הכביש אינה טסה."
 
-Vehicles without catalog specifications show a general illustration.
+רכבים בלי נתוני קטלוג מציגים המחשה כללית.
 
-## 9. Optional future catalog additions
+## 9. תוספות עתידיות אפשריות לקטלוג
 
-The SkyShift image library contains additional vehicles that are not yet in the catalog. Adding a model requires a prepared image, a specification check and a reviewed database change. Until then, they are not part of the catalog and cannot be added to the fleet.
+בספריית התמונות של SkyShift יש רכבים נוספים שעדיין לא נכנסו לקטלוג. הוספת דגם דורשת תמונה מוכנה, בדיקת מפרט ושינוי בדוק במסד הנתונים. עד אז הם אינם חלק מהקטלוג ואי אפשר להוסיף אותם לצי.

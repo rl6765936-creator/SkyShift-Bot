@@ -1,117 +1,117 @@
-# The SkyShift Technology Platform
+# פלטפורמת הטכנולוגיה של SkyShift
 
-**Document ID:** SKS-KB-009
-**Version:** 1.6
-**Owner:** Office of the CTO
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-009
+**גרסה:** 1.6
+**אחראי:** לשכת מנהל הטכנולוגיה (CTO)
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. Overview
+## 1. סקירה
 
-The **SkyShift platform** is the digital system that runs the SkyShift trial program. It has three parts:
+**פלטפורמת SkyShift** היא המערכת הדיגיטלית שמפעילה את תוכנית הניסוי של SkyShift. יש לה שלושה חלקים:
 
-1. **The SkyShift server:** built with **ASP.NET Core on .NET 8**. It holds all the business rules.
-2. **The SkyShift web application:** built with **React and TypeScript**. It provides the public site and the participant workspace, and a separate workspace for the operations team.
-3. **The database:** **PostgreSQL**, with SQL Server supported as an alternative.
+1. **השרת של SkyShift:** בנוי ב-**ASP.NET Core על .NET 8**. הוא מחזיק את כל הכללים העסקיים.
+2. **אפליקציית האינטרנט של SkyShift:** בנויה ב-**React ו-TypeScript**. היא מספקת את האתר הציבורי ואת האזור האישי של המשתתפים, ואזור נפרד לצוות התפעול.
+3. **מסד הנתונים:** **PostgreSQL**, עם תמיכה ב-SQL Server כחלופה.
 
-The technical name of the project is **SkyShift**; its business name is **"עולים לאוויר"**.
+השם הטכני של הפרויקט הוא **SkyShift**; שמו העסקי הוא **"עולים לאוויר"**.
 
-## 2. Guiding technical principles
+## 2. עקרונות טכניים מנחים
 
-1. **The server decides.** Trial dates, eligibility and vehicle availability are calculated only by the server. The web application displays them and never recalculates them.
-2. **One winner for every limited resource.** When two requests compete for the same vehicle, exactly one succeeds.
-3. **Rules live in one place.** Business rules are written once, in the core of the system, and not repeated elsewhere.
-4. **History is never deleted.** Assignments and flights are kept permanently.
-5. **Honest data.** Every specification carries an accuracy label.
+1. **השרת מחליט.** תאריכי הניסוי, הזכאות וזמינות הרכבים מחושבים רק על ידי השרת. אפליקציית האינטרנט מציגה אותם, ולעולם לא מחשבת אותם מחדש.
+2. **מנצח אחד לכל משאב מוגבל.** כששתי בקשות מתחרות על אותו רכב, רק אחת מהן מצליחה בדיוק.
+3. **הכללים במקום אחד.** הכללים העסקיים כתובים פעם אחת, בליבת המערכת, ולא חוזרים במקומות אחרים.
+4. **היסטוריה לעולם לא נמחקת.** הקצאות וטיסות נשמרות לצמיתות.
+5. **נתונים כנים.** לכל נתון יש תווית דיוק.
 
-## 3. Architecture
+## 3. ארכיטקטורה
 
-The server follows **Clean Architecture**: the system is split into layers, and the core business rules do not depend on the database, the web or any external technology.
+השרת בנוי לפי **Clean Architecture**: המערכת מחולקת לשכבות, והכללים העסקיים בליבה אינם תלויים במסד הנתונים, ברשת או בשום טכנולוגיה חיצונית.
 
-| Layer | Responsibility |
+| שכבה | אחריות |
 |---|---|
-| **Domain** | The core concepts and their rules: participants, vehicles, vehicle assignments, flights, catalog models, and lottery eligibility |
-| **Application** | One clearly defined action per use case, such as registering, selecting a vehicle or recording a flight |
-| **Infrastructure** | Storing and reading data safely |
-| **API** | Receiving requests from the web application and returning answers |
+| **Domain (ליבה)** | המושגים המרכזיים והכללים שלהם: משתתפים, רכבים, הקצאות רכב, טיסות, דגמי קטלוג, וזכאות להגרלה |
+| **Application (יישום)** | פעולה אחת מוגדרת היטב לכל תרחיש, כמו הרשמה, בחירת רכב או תיעוד טיסה |
+| **Infrastructure (תשתית)** | שמירה וקריאה של נתונים בצורה בטוחה |
+| **API** | קבלת בקשות מאפליקציית האינטרנט והחזרת תשובות |
 
-## 4. The core concepts
+## 4. מושגי הליבה
 
-| Concept | Main information | Key rules |
+| מושג | מידע עיקרי | כללים מרכזיים |
 |---|---|---|
-| **Participant** | Name, email, average daily trips, gender (optional) | Monthly target = average daily trips × 30 |
-| **Vehicle** | Status, catalog model, seats, road speed, image, descriptions | Can be assigned only when Available. Retired is final. |
-| **Vehicle assignment** | Participant, vehicle, start, end | End = start + exactly one month. Active from start to end, both included. |
-| **Flight** | Participant, vehicle, flight date and time, record creation time | Must be within the trial and not in the future. The creation time is set by the server. |
-| **Catalog model** | Manufacturer, model, seats, road speed, accuracy labels, image, descriptions | Each catalog model can be used by only one fleet vehicle |
+| **משתתף** | שם, דוא"ל, ממוצע נסיעות יומי, מגדר (לא חובה) | יעד חודשי = ממוצע נסיעות יומי × 30 |
+| **רכב** | סטטוס, דגם קטלוג, מושבים, מהירות כביש, תמונה, תיאורים | אפשר להקצות רק כשהוא פנוי. "הוצא משירות" הוא סופי. |
+| **הקצאת רכב** | משתתף, רכב, התחלה, סיום | סיום = התחלה + חודש אחד בדיוק. פעילה מההתחלה ועד הסיום, כולל שניהם. |
+| **טיסה** | משתתף, רכב, תאריך ושעת הטיסה, זמן יצירת הרישום | חייבת להיות בתוך הניסוי ולא בעתיד. זמן היצירה נקבע על ידי השרת. |
+| **דגם קטלוג** | יצרן, דגם, מושבים, מהירות כביש, תוויות דיוק, תמונה, תיאורים | כל דגם קטלוג יכול לשמש רק רכב אחד בצי |
 
-### Lottery eligibility
+### זכאות להגרלה
 
-Eligibility is calculated by a dedicated component of the domain:
+הזכאות מחושבת על ידי רכיב ייעודי בליבת המערכת:
 
-- **Threshold:** 80%.
-- **Eligibility check:** completed flights × 100 ≥ 80 × expected monthly trips. The comparison uses whole numbers only, so there are no rounding errors.
-- **Completion percentage** for display: completed flights × 100 ÷ expected monthly trips, rounded down.
-- If the expected monthly trips are 0, the participant is not eligible and the percentage is 0.
+- **סף:** 80%.
+- **בדיקת זכאות:** טיסות שהושלמו × 100 ≥ 80 × נסיעות צפויות בחודש. ההשוואה משתמשת רק במספרים שלמים, ולכן אין שגיאות עיגול.
+- **אחוז ההשלמה** לתצוגה: טיסות שהושלמו × 100 ÷ נסיעות צפויות בחודש, מעוגל כלפי מטה.
+- אם מספר הנסיעות הצפויות בחודש הוא 0, המשתתף אינו זכאי והאחוז הוא 0.
 
-**Completed flights** are counted only within the dates of the **active** vehicle assignment.
+**טיסות שהושלמו** נספרות רק בתוך התאריכים של הקצאת הרכב **הפעילה**.
 
-## 5. Fairness when participants compete
+## 5. הוגנות כשמשתתפים מתחרים
 
-Vehicles are a limited resource. The platform is designed so that **two participants can never hold the same vehicle**, even if they press "select" at exactly the same moment:
+הרכבים הם משאב מוגבל. הפלטפורמה בנויה כך ש**שני משתתפים לעולם לא יחזיקו באותו רכב**, גם אם לחצו "בחירה" באותו רגע בדיוק:
 
-- If two participants select the same vehicle at the same time, the first selection to be saved wins. The second participant receives a clear message that the vehicle is no longer available.
-- If the same participant sends two selections at the same time, only one assignment is created.
-- If a vehicle is being removed from the fleet at the same moment a participant selects it, only one of the two actions succeeds.
+- אם שני משתתפים בוחרים את אותו רכב באותו זמן, הבחירה הראשונה שנשמרת מנצחת. המשתתף השני מקבל הודעה ברורה שהרכב כבר לא פנוי.
+- אם אותו משתתף שולח שתי בחירות באותו זמן, נוצרת רק הקצאה אחת.
+- אם רכב מוסר מהצי באותו רגע שמשתתף בוחר בו, רק אחת משתי הפעולות מצליחה.
 
-These guarantees are covered by automated tests.
+ההבטחות האלה מכוסות בבדיקות אוטומטיות.
 
-## 6. Messages and languages
+## 6. הודעות ושפות
 
-- The platform is fully available in **Hebrew and English**, including right-to-left layout and gender-appropriate Hebrew addressing.
-- Every expected error is returned with a clear message in both languages. The message shown follows the participant's selected language.
-- Unexpected errors show a general message, without internal technical details.
+- הפלטפורמה זמינה במלואה ב**עברית ובאנגלית**, כולל תצוגה מימין לשמאל ופנייה בעברית בלשון המתאימה למגדר.
+- כל שגיאה צפויה מוחזרת עם הודעה ברורה בשתי השפות. ההודעה שמוצגת תואמת לשפה שהמשתתף בחר.
+- שגיאות לא צפויות מציגות הודעה כללית, בלי פרטים טכניים פנימיים.
 
-## 7. Security and privacy in the platform
+## 7. אבטחה ופרטיות בפלטפורמה
 
-- **Passwords** are stored only as secure, one-way hashes. Readable passwords are never stored.
-- **Sessions expire** automatically after a period of time; the participant is then asked to sign in again.
-- **Permissions are enforced by the server.** Each participant can see only their own data. Management functions are available only to authorized members of the SkyShift operations team, and no one can grant themselves management permissions through the platform.
-- **Secret keys** are never stored in the code or in the web application.
-- All communication between the browser and the server is encrypted (HTTPS).
+- **סיסמאות** נשמרות רק כגיבוב חד-כיווני ומאובטח. סיסמאות קריאות לעולם לא נשמרות.
+- **ההתחברות פגה** אוטומטית אחרי זמן מה; אז המשתתף מתבקש להתחבר שוב.
+- **ההרשאות נאכפות על ידי השרת.** כל משתתף יכול לראות רק את הנתונים שלו. פונקציות הניהול זמינות רק לחברי צוות התפעול המורשים של SkyShift, ואף אחד לא יכול להעניק לעצמו הרשאות ניהול דרך הפלטפורמה.
+- **מפתחות סודיים** לעולם לא נשמרים בקוד או באפליקציית האינטרנט.
+- כל התקשורת בין הדפדפן לשרת מוצפנת (HTTPS).
 
-## 8. The participant screens
+## 8. מסכי המשתתף
 
-| Screen | Purpose |
+| מסך | מטרה |
 |---|---|
-| Home | The SkyShift story and animation |
-| Sign in / Register | Registration signs the participant in immediately |
-| Dashboard | Target, completed flights, completion percentage, eligibility, current vehicle |
-| Vehicles | Available fleet, filter by type, select a vehicle |
-| My vehicle | The participant's current vehicle and its details |
-| Record a flight | Record a completed trip |
+| דף הבית | הסיפור והאנימציה של SkyShift |
+| התחברות / הרשמה | ההרשמה מחברת את המשתתף מיד |
+| אזור אישי | יעד, טיסות שהושלמו, אחוז השלמה, זכאות, רכב נוכחי |
+| רכבים | הצי הפנוי, סינון לפי סוג, בחירת רכב |
+| הרכב שלי | הרכב הנוכחי של המשתתף והפרטים שלו |
+| תיעוד טיסה | תיעוד נסיעה שהושלמה |
 
-The home page animation pauses when it is out of view, has pause and replay controls, and shows a still image for people who prefer reduced motion.
+האנימציה בדף הבית נעצרת כשהיא מחוץ לתצוגה, יש לה כפתורי עצירה והפעלה מחדש, ולמי שמעדיף פחות תנועה מוצגת תמונה סטטית.
 
-The platform's colour palette uses indigo, lavender, sky blue, turquoise, champagne gold and cream, on mostly light surfaces.
+ערכת הצבעים של הפלטפורמה משתמשת באינדיגו, לבנדר, תכלת, טורקיז, זהב שמפניה ושמנת, על משטחים בהירים ברובם.
 
-## 9. Management capabilities (summary)
+## 9. יכולות ניהול (תקציר)
 
-The SkyShift operations team has a separate, protected workspace for running the trial: managing the fleet, following participation, and viewing flights and assignments. Its main indicators are described in SKS-KB-010. The workspace is not available to participants.
+לצוות התפעול של SkyShift יש אזור נפרד ומוגן להפעלת הניסוי: ניהול הצי, מעקב אחר ההשתתפות, וצפייה בטיסות ובהקצאות. המדדים העיקריים שלו מתוארים ב-SKS-KB-010. האזור הזה אינו זמין למשתתפים.
 
-## 10. Quality and testing
+## 10. איכות ובדיקות
 
-- The server is covered by automated tests, including tests of vehicle selection under competition, dashboards, vehicle removal rules and error handling, run against real databases.
-- The web application is covered by a strict build check and automated browser tests on desktop and mobile layouts.
+- השרת מכוסה בבדיקות אוטומטיות, כולל בדיקות של בחירת רכב בתנאי תחרות, לוחות מחוונים, כללי הסרת רכבים וטיפול בשגיאות, שרצות מול מסדי נתונים אמיתיים.
+- אפליקציית האינטרנט מכוסה בבדיקת בנייה קפדנית ובבדיקות דפדפן אוטומטיות, בתצוגת מחשב ובתצוגת נייד.
 
-## 11. Availability
+## 11. זמינות
 
-The platform is currently published as a **public demonstration environment**. No vehicles, flights or assignments are created automatically: vehicles are added to the fleet by the operations team.
+הפלטפורמה מתפרסמת כרגע כ**סביבת הדגמה ציבורית**. רכבים, טיסות והקצאות אינם נוצרים אוטומטית: צוות התפעול מוסיף רכבים לצי.
 
-## 12. Planned technical work
+## 12. עבודה טכנית מתוכננת
 
-- Verification of flights from trusted vehicle data.
-- Automatic return of vehicles to the available pool at the end of a trial.
-- The **SkyShift assistant bot**, which answers questions from this knowledge base.
-- Flight booking and SkyPad scheduling (for the pilot stage).
+- אימות טיסות מנתוני רכב מהימנים.
+- החזרה אוטומטית של רכבים למאגר הפנוי בסוף ניסוי.
+- **בוט העוזר של SkyShift**, שעונה על שאלות ממאגר הידע הזה.
+- הזמנת טיסות ותיאום SkyPads (לשלב הפיילוט).

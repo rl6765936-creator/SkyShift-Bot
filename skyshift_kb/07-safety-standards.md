@@ -1,175 +1,175 @@
-# Safety Standards and the SkyShift Safety Framework
+# תקני בטיחות ומסגרת הבטיחות של SkyShift
 
-**Document ID:** SKS-KB-007
-**Version:** SSF 1.2
-**Owner:** Office of Safety and Airworthiness (Chief Safety and Airworthiness Officer)
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-007
+**גרסה:** SSF 1.2
+**אחראי:** משרד הבטיחות והכשירות האווירית (ממונה הבטיחות והכשירות האווירית)
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-> **Status notice:** SkyShift currently carries out no flights. The SkyShift Safety Framework (SSF) defines the requirements that every SkyCar, every SkyPad and every flight must meet **before** any flight takes place. Alignment with international standards described here is a **design commitment**, not a certification. Only an aviation authority can certify an aircraft.
+> **הודעה על המצב:** SkyShift אינו מבצע כיום טיסות. מסגרת הבטיחות של SkyShift (SSF) מגדירה את הדרישות שכל SkyCar, כל SkyPad וכל טיסה חייבים לעמוד בהן **לפני** שתתקיים טיסה כלשהי. ההתאמה לתקנים בינלאומיים שמתוארת כאן היא **מחויבות תכנונית**, ולא הסמכה. רק רשות תעופה יכולה להסמיך כלי טיס.
 
-## 1. Safety philosophy
+## 1. גישת הבטיחות
 
-SkyShift's safety philosophy fits in one sentence:
+את גישת הבטיחות של SkyShift אפשר לסכם במשפט אחד:
 
-**"A single failure must never be allowed to become a catastrophe."**
+**"אסור לאפשר לתקלה בודדת להפוך לאסון."**
 
-Four principles follow from it:
+מכאן נגזרים ארבעה עקרונות:
 
-1. **Safety before everything.** No schedule, budget or publicity goal justifies a flight that is not safe.
-2. **Redundancy everywhere it matters.** Every system whose failure could endanger people has at least one independent backup.
-3. **The strictest relevant standard.** When there is a choice between standards, SkyShift designs to the stricter one.
-4. **Independent authority to stop.** The Chief Safety and Airworthiness Officer may stop any activity, and commercial considerations cannot override the stop.
+1. **בטיחות לפני הכול.** שום לוח זמנים, תקציב או מטרת פרסום לא מצדיקים טיסה שאינה בטוחה.
+2. **יתירות בכל מקום שזה חשוב.** לכל מערכת שכשל בה עלול לסכן אנשים יש לפחות גיבוי בלתי תלוי אחד.
+3. **התקן הרלוונטי המחמיר ביותר.** כשיש בחירה בין תקנים, SkyShift מתכנן לפי המחמיר מביניהם.
+4. **סמכות עצמאית לעצור.** ממונה הבטיחות והכשירות האווירית רשאי לעצור כל פעילות, ושיקולים מסחריים אינם יכולים לבטל את העצירה.
 
-## 2. The international standards SkyShift aligns with
+## 2. התקנים הבינלאומיים ש-SkyShift מתאים את עצמו אליהם
 
-### 2.1 EASA Special Condition for VTOL aircraft (SC-VTOL)
+### 2.1 התנאי המיוחד של EASA לכלי טיס VTOL (SC-VTOL)
 
-In July 2019 the European Union Aviation Safety Agency (EASA) published its Special Condition for small-category VTOL aircraft (SC-VTOL-01). It defines two categories:
+ביולי 2019 פרסמה סוכנות בטיחות התעופה של האיחוד האירופי (EASA) את התנאי המיוחד שלה לכלי טיס VTOL קטנים (SC-VTOL-01). הוא מגדיר שתי קטגוריות:
 
-- **Basic:** for lower-risk, non-commercial operations.
-- **Enhanced:** for operations over congested areas or commercial passenger transport.
+- **בסיסית (Basic):** לפעילות לא מסחרית ובסיכון נמוך יותר.
+- **משופרת (Enhanced):** לפעילות מעל אזורים צפופים או להסעת נוסעים מסחרית.
 
-In the **Enhanced** category:
+בקטגוריה **המשופרת**:
 
-- The aircraft must be able to **continue safe flight and landing** after a failure, and reach its destination or an alternate landing site.
-- A **single failure must not have a catastrophic effect**.
-- Catastrophic failure conditions must be **extremely improbable**, with a quantitative objective of no more than **one in a billion per flight hour (10⁻⁹)**, the same level of safety required of large commercial airliners.
+- כלי הטיס חייב להיות מסוגל **להמשיך טיסה ונחיתה בטוחות** אחרי כשל, ולהגיע ליעד שלו או לאתר נחיתה חלופי.
+- **כשל בודד אסור שיגרום לתוצאה קטסטרופלית**.
+- מצבי כשל קטסטרופליים חייבים להיות **בלתי סבירים במידה קיצונית**, עם יעד כמותי של לא יותר מ**אחד למיליארד שעות טיסה (10⁻⁹)**, אותה רמת בטיחות שנדרשת ממטוסי נוסעים גדולים.
 
-**SkyShift's commitment:** the SkyCar is designed to the requirements of the **Enhanced** category, even for the pilot stage, because the SkyCar is intended to carry passengers near populated areas.
+**המחויבות של SkyShift:** ה-SkyCar מתוכנן לפי דרישות הקטגוריה **המשופרת**, גם לשלב הפיילוט, כי הוא נועד להסיע נוסעים בסמוך לאזורים מאוכלסים.
 
-### 2.2 FAA powered-lift rules
+### 2.2 הכללים של FAA לכלי טיס powered-lift
 
-On 22 October 2024 the United States FAA issued a final rule and a Special Federal Aviation Regulation (SFAR) for **powered-lift** aircraft, the category to which most eVTOL aircraft belong. The rule covers the qualifications and training of pilots and instructors, and operational requirements for this category.
+ב-22 באוקטובר 2024 פרסם ה-FAA האמריקאי כלל סופי ותקנה פדרלית מיוחדת (SFAR) לכלי טיס מסוג **powered-lift**, הקטגוריה שאליה שייכים רוב כלי הטיס מסוג eVTOL. הכלל עוסק בכישורים ובהכשרה של טייסים ומדריכים, ובדרישות תפעוליות לקטגוריה הזו.
 
-**SkyShift's commitment:** the training program for SkyShift safety pilots is designed to be at least as demanding as the approach in this framework, including training in full-flight simulators and type-specific training on the SkyCar. In Israel, the requirements of the Civil Aviation Authority of Israel are binding and take precedence.
+**המחויבות של SkyShift:** תוכנית ההכשרה לטייסי הבטיחות של SkyShift מתוכננת להיות תובענית לפחות כמו הגישה במסגרת הזו, כולל אימון בסימולטורי טיסה מלאים והכשרה ייעודית ל-SkyCar. בישראל, הדרישות של רשות התעופה האזרחית מחייבות וגוברות.
 
-### 2.3 Israeli regulation
+### 2.3 הרגולציה בישראל
 
-Any flight in Israel requires the approvals of the **Civil Aviation Authority of Israel (CAAI)** and coordination with all relevant airspace authorities. SkyShift will carry out no flight without all required approvals. Israel's National Drone Initiative (INDI), led by government bodies including the Ministry of Transport, the Israel Innovation Authority, Ayalon Highways and the CAAI, has been running experiments with drones and air taxis since 2019. SkyShift is **not** part of INDI, but follows the regulatory knowledge developing in Israel closely.
+כל טיסה בישראל דורשת את אישורי **רשות התעופה האזרחית (CAAI)** ותיאום עם כל רשויות המרחב האווירי הרלוונטיות. SkyShift לא יבצע שום טיסה בלי כל האישורים הנדרשים. המיזם הלאומי לרחפנים (INDI), בהובלת גופים ממשלתיים ובהם משרד התחבורה, רשות החדשנות, נתיבי איילון ורשות התעופה האזרחית, מקיים מאז 2019 ניסויים ברחפנים ובמוניות אוויריות. SkyShift **אינו** חלק מ-INDI, אבל עוקב מקרוב אחרי הידע הרגולטורי שמתפתח בישראל.
 
-### 2.4 Automotive safety in road mode
+### 2.4 בטיחות רכב במצב כביש
 
-In road mode the SkyCar is a road vehicle and must meet the road-vehicle safety requirements that apply to it, including crash protection, lighting, braking and road-approval requirements.
+במצב כביש ה-SkyCar הוא רכב כביש, ועליו לעמוד בדרישות הבטיחות לרכבי כביש שחלות עליו, כולל הגנה בהתנגשות, תאורה, בלימה ודרישות אישור לכביש.
 
-## 3. Safety targets of the SkyShift Safety Framework
+## 3. יעדי הבטיחות של מסגרת הבטיחות של SkyShift
 
-| Failure classification | Effect | SkyShift target (per flight hour) |
+| סיווג כשל | השפעה | היעד של SkyShift (לשעת טיסה) |
 |---|---|---|
-| Catastrophic | Loss of continued safe flight and landing | ≤ 10⁻⁹, and never from a single failure |
-| Hazardous | Serious injury possible; large reduction in safety margins | ≤ 10⁻⁷ |
-| Major | Significant reduction in safety margins; possible discomfort | ≤ 10⁻⁵ |
-| Minor | Slight reduction in safety margins | ≤ 10⁻³ |
-| No safety effect | — | No requirement |
+| קטסטרופלי | אובדן היכולת להמשיך טיסה ונחיתה בטוחות | ≤ 10⁻⁹, ולעולם לא מכשל בודד |
+| מסוכן | ייתכן פציעה חמורה; ירידה גדולה במרווחי הבטיחות | ≤ 10⁻⁷ |
+| משמעותי | ירידה משמעותית במרווחי הבטיחות; ייתכן אי נוחות | ≤ 10⁻⁵ |
+| קל | ירידה קלה במרווחי הבטיחות | ≤ 10⁻³ |
+| ללא השפעה על הבטיחות | — | אין דרישה |
 
-Every system is analysed with a formal **system safety assessment**: a functional hazard assessment, fault-tree analysis and failure-mode analysis. Each analysis is reviewed by the Office of Safety and Airworthiness.
+כל מערכת עוברת **הערכת בטיחות מערכת** פורמלית: הערכת סיכונים פונקציונלית, ניתוח עץ תקלות וניתוח אופני כשל. כל ניתוח נבדק על ידי משרד הבטיחות והכשירות האווירית.
 
-## 4. Redundancy: the layers of protection
+## 4. יתירות: שכבות ההגנה
 
-| System | Redundancy in the SkyCar design |
+| מערכת | יתירות בתכנון ה-SkyCar |
 |---|---|
-| Propulsion | 8 rotors, each with its own motor and controller; designed to continue safe flight after losing any one |
-| Energy | 3 independent, electrically isolated battery packs; loss of one pack still allows a safe landing |
-| Flight control | 3 independent flight computers, each able to fly alone, with cross-checking |
-| Navigation | Satellite navigation with integrity monitoring, plus independent inertial navigation |
-| Communication | Two independent data links to the flight-supervision centre, plus voice radio |
-| Human | A trained safety pilot on board, plus monitoring from the flight-supervision centre |
-| Last resort | A whole-vehicle ballistic recovery parachute |
+| הנעה | 8 מדחפים, לכל אחד מנוע ובקר משלו; מתוכנן להמשיך טיסה בטוחה אחרי אובדן כל אחד מהם |
+| אנרגיה | 3 מארזי סוללות עצמאיים ומבודדים חשמלית; אובדן מארז אחד עדיין מאפשר נחיתה בטוחה |
+| בקרת טיסה | 3 מחשבי טיסה בלתי תלויים, שכל אחד יכול להטיס לבדו, עם בדיקה הדדית |
+| ניווט | ניווט לוויני עם ניטור שלמות, ובנוסף ניווט אינרציאלי בלתי תלוי |
+| תקשורת | שני קשרי נתונים בלתי תלויים למרכז הפיקוח על הטיסות, ובנוסף קשר רדיו קולי |
+| אנושי | טייס בטיחות מיומן על הסיפון, ובנוסף ניטור ממרכז הפיקוח על הטיסות |
+| מוצא אחרון | מצנח חילוץ בליסטי לכל הרכב |
 
-## 5. Operational safety rules
+## 5. כללי בטיחות תפעוליים
 
-### 5.1 Before every flight
+### 5.1 לפני כל טיסה
 
-- Automatic system check: batteries, rotors, flight computers, sensors, parachute.
-- Visual inspection by ground staff according to a checklist.
-- Confirmation that arms are unfolded and locked, by independent sensors.
-- Weather check against operating limits.
-- Confirmation of the energy plan: the flight leg **plus** a 20-minute reserve.
-- Confirmation of the passengers' weight and seating against the vehicle's limits.
-- Safety briefing for the passengers (full briefing at the first flight; reminder afterwards).
+- בדיקת מערכות אוטומטית: סוללות, מדחפים, מחשבי טיסה, חיישנים, מצנח.
+- בדיקה חזותית של צוות הקרקע לפי רשימת תיוג.
+- אישור שהזרועות פתוחות ונעולות, על ידי חיישנים בלתי תלויים.
+- בדיקת מזג האוויר מול מגבלות התפעול.
+- אישור תוכנית האנרגיה: קטע הטיסה **ובנוסף** עתודה של 20 דקות.
+- אישור משקל הנוסעים ומיקומם מול מגבלות הרכב.
+- תדריך בטיחות לנוסעים (תדריך מלא בטיסה הראשונה; תזכורת לאחר מכן).
 
-### 5.2 Weather limits (operating rules)
+### 5.2 מגבלות מזג אוויר (כללי תפעול)
 
-- No flight in thunderstorms or in forecast thunderstorm conditions.
-- Steady wind up to 25 knots, gusts up to 30 knots.
-- Daytime flights in visual conditions only during the first stage of the pilot.
-- No flight in icing conditions.
+- אין טיסה בסופות רעמים או כשצפויות סופות רעמים.
+- רוח קבועה עד 25 קשר, משבים עד 30 קשר.
+- בשלב הראשון של הפיילוט, טיסות יום בתנאי ראות בלבד.
+- אין טיסה בתנאי היווצרות קרח.
 
-### 5.3 Where the SkyCar may fly
+### 5.3 איפה ה-SkyCar רשאי לטוס
 
-- Only between approved SkyPads.
-- Only within approved corridors and up to the approved altitude.
-- Geofencing in the flight-control system prevents departure from the corridor.
+- רק בין SkyPads מאושרים.
+- רק בתוך נתיבים מאושרים ועד הגובה המאושר.
+- הגידור הגיאוגרפי במערכת בקרת הטיסה מונע יציאה מהנתיב.
 
-### 5.4 Passengers
+### 5.4 נוסעים
 
-- Participants are passengers only; they do not operate the aircraft.
-- Seat belts must be fastened from conversion until the end of air-to-road conversion.
-- Dangerous goods may not be carried.
-- A passenger who feels unwell may ask to cancel or end the flight at the nearest safe point.
+- המשתתפים הם נוסעים בלבד; הם אינם מפעילים את כלי הטיס.
+- חגורות הבטיחות חייבות להיות רכוסות מתחילת ההמרה ועד סוף ההמרה מאוויר לכביש.
+- אסור לשאת חומרים מסוכנים.
+- נוסע שמרגיש לא טוב רשאי לבקש לבטל את הטיסה או לסיים אותה בנקודה הבטוחה הקרובה.
 
-## 6. Emergency procedures (summary)
+## 6. נוהלי חירום (תקציר)
 
-| Situation | Planned response |
+| מצב | התגובה המתוכננת |
 |---|---|
-| Loss of one rotor or motor | Automatic redistribution of thrust; continue to the destination or nearest SkyPad |
-| Loss of one battery pack | Isolation of the pack; landing at the nearest SkyPad |
-| Flight-computer disagreement | Automatic exclusion of the faulty computer; continue on the remaining computers |
-| Loss of data link | Switch to the backup link; if both are lost, the vehicle follows a pre-programmed safe route to landing |
-| Battery thermal event | Isolation, containment, venting away from the cabin; immediate landing |
-| Extreme emergency | Deployment of the whole-vehicle recovery parachute |
+| אובדן מדחף או מנוע אחד | חלוקה מחדש אוטומטית של הדחף; המשך ליעד או ל-SkyPad הקרוב |
+| אובדן מארז סוללות אחד | בידוד המארז; נחיתה ב-SkyPad הקרוב |
+| אי הסכמה בין מחשבי הטיסה | הוצאה אוטומטית של המחשב התקול; המשך עם המחשבים הנותרים |
+| אובדן קשר נתונים | מעבר לקשר הגיבוי; אם שניהם אבדו, הכלי עוקב אחר מסלול בטוח שתוכנת מראש עד לנחיתה |
+| אירוע תרמי בסוללה | בידוד, בלימה, פליטה הרחק מתא הנוסעים; נחיתה מיידית |
+| חירום קיצוני | הפעלת מצנח החילוץ לכל הרכב |
 
-## 7. Maintenance and fleet status
+## 7. תחזוקה וסטטוס הצי
 
-Safety continues on the ground:
+הבטיחות ממשיכה גם על הקרקע:
 
-- Every SkyCar has a **maintenance programme** with inspections based on flight hours, cycles and calendar time.
-- A vehicle that needs maintenance is moved to **"Maintenance"** status in the SkyShift fleet system. While in this status it cannot be assigned to participants.
-- A vehicle that is temporarily unusable for another reason is moved to **"Unavailable"**.
-- A vehicle permanently removed from service is moved to **"Retired"**. This status is final.
-- A vehicle that is in use by a participant cannot be moved to another status until its assignment ends.
+- לכל SkyCar יש **תוכנית תחזוקה**, עם בדיקות לפי שעות טיסה, מחזורים וזמן קלנדרי.
+- רכב שזקוק לתחזוקה מועבר לסטטוס **"תחזוקה"** במערכת ניהול הצי של SkyShift. כל עוד הוא בסטטוס הזה, אי אפשר להקצות אותו למשתתפים.
+- רכב שאינו שמיש זמנית מסיבה אחרת מועבר לסטטוס **"לא זמין"**.
+- רכב שהוצא משירות לצמיתות מועבר לסטטוס **"הוצא משירות"**. הסטטוס הזה סופי.
+- רכב שנמצא בשימוש של משתתף אינו יכול לעבור לסטטוס אחר עד שההקצאה שלו מסתיימת.
 
-More detail on fleet statuses is in SKS-KB-008 and SKS-KB-010.
+פרטים נוספים על סטטוסים של רכבים ב-SKS-KB-008 וב-SKS-KB-010.
 
-## 8. Safety reporting culture
+## 8. תרבות דיווח בטיחות
 
-SkyShift encourages everyone to report any safety concern, near-miss or mistake. Reports can be sent to **safety@skyshift.demo**.
+SkyShift מעודד כל אחד לדווח על כל חשש בטיחותי, כמעט-תאונה או טעות. אפשר לשלוח דיווחים אל **safety@skyshift.demo**.
 
-- Reports are handled confidentially.
-- SkyShift operates a **just culture**: a person who reports an honest mistake will not be punished for reporting it. The goal is to learn and prevent recurrence.
-- Every report receives a response, and lessons learned are shared with the whole team.
+- הדיווחים מטופלים בסודיות.
+- SkyShift פועל לפי **תרבות צודקת**: מי שמדווח על טעות כנה לא ייענש על הדיווח. המטרה היא ללמוד ולמנוע הישנות.
+- כל דיווח מקבל מענה, והלקחים משותפים עם כל הצוות.
 
-## 9. Safety pilots
+## 9. טייסי בטיחות
 
-SkyShift safety pilots:
+טייסי הבטיחות של SkyShift:
 
-- Hold the pilot licences and ratings required by the aviation authority.
-- Complete SkyCar type-specific training, including simulator training of emergency procedures.
-- Undergo recurrent training and checks at fixed intervals.
-- Are subject to rest-time and fitness-for-duty rules.
+- מחזיקים ברישיונות ובהסמכות הטיס שרשות התעופה דורשת.
+- משלימים הכשרה ייעודית ל-SkyCar, כולל אימון בסימולטור על נוהלי חירום.
+- עוברים אימוני ריענון ובדיקות במרווחי זמן קבועים.
+- כפופים לכללי זמני מנוחה וכשירות לתפקיד.
 
-## 10. Safety of people on the ground
+## 10. בטיחות האנשים על הקרקע
 
-- Corridors are planned to avoid flying directly over crowded places wherever possible.
-- SkyPads are planned with safety zones around the pads.
-- Noise is monitored, and complaints from residents are investigated.
+- הנתיבים מתוכננים כך שיימנעו מטיסה ישירה מעל מקומות צפופים ככל האפשר.
+- ה-SkyPads מתוכננים עם אזורי ביטחון סביב המשטחים.
+- הרעש מנוטר, ותלונות של תושבים נבדקות.
 
-## 11. Safety in the digital platform
+## 11. בטיחות בפלטפורמה הדיגיטלית
 
-Safety also means reliable data:
+בטיחות היא גם נתונים אמינים:
 
-- Vehicle status is controlled only by authorized Managers, with fixed transition rules.
-- The platform does not allow a vehicle to be assigned to two participants at the same time.
-- Flight records are protected against duplicates and against future or out-of-trial dates.
+- את סטטוס הרכב משנים רק מנהלים מורשים, לפי כללי מעבר קבועים.
+- הפלטפורמה לא מאפשרת להקצות רכב לשני משתתפים באותו זמן.
+- רישומי הטיסות מוגנים מפני כפילויות ומפני תאריכים עתידיים או מחוץ לניסוי.
 
-## 12. Summary
+## 12. סיכום
 
-| Question | Answer |
+| שאלה | תשובה |
 |---|---|
-| Which standard does the SkyCar aim for? | The Enhanced category of EASA's SC-VTOL, 10⁻⁹ per flight hour for catastrophic failures |
-| Who flies the SkyCar? | A trained SkyShift safety pilot, with monitoring from the flight-supervision centre |
-| Can a single failure cause a crash? | The design requirement is that no single failure may be catastrophic |
-| Is there a parachute? | Yes, a whole-vehicle ballistic recovery parachute is part of the design |
-| Is the SkyCar certified? | No. It is a concept; certification will be sought from the aviation authority |
-| Are flights taking place today? | No. No flight will take place before every safety and regulatory requirement is met |
+| לאיזה תקן ה-SkyCar מכוון? | הקטגוריה המשופרת של SC-VTOL של EASA: 10⁻⁹ לשעת טיסה לכשלים קטסטרופליים |
+| מי מטיס את ה-SkyCar? | טייס בטיחות מיומן של SkyShift, עם ניטור ממרכז הפיקוח על הטיסות |
+| האם כשל בודד יכול לגרום להתרסקות? | דרישת התכנון היא שאף כשל בודד לא יהיה קטסטרופלי |
+| יש מצנח? | כן, מצנח חילוץ בליסטי לכל הרכב הוא חלק מהתכנון |
+| האם ה-SkyCar מוסמך? | לא. זה קונספט; ההסמכה תתבקש מרשות התעופה |
+| האם מתקיימות טיסות היום? | לא. שום טיסה לא תתקיים לפני שכל דרישות הבטיחות והרגולציה יתקיימו |

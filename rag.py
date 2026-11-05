@@ -21,6 +21,29 @@ import config
 
 
 # ==========================================
+# BM25 בעברית
+# ==========================================
+
+class HebrewPrefixStemmer:
+    """
+    "מנרמל" מילים עבריות לחיפוש מילות מפתח: מסיר עד שתי אותיות שימוש מתחילת המילה
+    (ו, ה, ב, כ, ל, מ, ש), כך ש"ההגרלה", "בהגרלה" ו"להגרלה" נספרות כאותה מילה.
+    זו היוריסטיקה פשוטה: היא פועלת באותו אופן על המסמכים ועל השאלה, ולכן ההתאמה עקבית.
+    """
+    PREFIXES = "והבכלמש"
+
+    def stemWord(self, word):
+        stripped = 0
+        while stripped < 2 and len(word) > 3 and word[0] in self.PREFIXES and HEBREW_LETTER.match(word):
+            word = word[1:]
+            stripped += 1
+        return word
+
+    def stemWords(self, words):
+        return [self.stemWord(w) for w in words]
+
+
+# ==========================================
 # אתחול
 # ==========================================
 
@@ -56,7 +79,9 @@ def load_components():
     # BM25 בונה אינדקס מילים מאותם קטעים שנשמרו ב-ChromaDB
     nodes = vector_store.get_nodes(node_ids=None)
     bm25_retriever = BM25Retriever.from_defaults(
-        nodes=nodes, similarity_top_k=config.CANDIDATES_PER_RETRIEVER, language="en"
+        nodes=nodes,
+        similarity_top_k=config.CANDIDATES_PER_RETRIEVER,
+        stemmer=HebrewPrefixStemmer(),
     )
 
     # מיזוג RRF. num_queries=1: בלי יצירת שאלות נוספות, כלומר בלי קריאות ל-Gemini
@@ -118,29 +143,41 @@ def ask_with_fallback(llms, action):
 # שלב 1: שכתוב / תרגום השאלה
 # ==========================================
 
-# אותיות שאינן לטיניות (עברית, ערבית וכו')
-NON_LATIN_LETTER = re.compile(r"[^\W\d_a-zA-Z]")
+# אותיות עבריות
+HEBREW_LETTER = re.compile(r"[\u05D0-\u05EA]")
+# אותיות שאינן ספרות (בכל שפה)
+ANY_LETTER = re.compile(r"[^\W\d_]")
 # מילים שמרמזות שהשאלה תלויה בהודעה קודמת
-REFERENCE_WORDS = {"it", "its", "they", "them", "their", "this", "that", "these", "those", "he", "his", "there"}
+REFERENCE_WORDS = {
+    # עברית
+    "בו", "בה", "בהם", "בהן", "לו", "לה", "להם", "שלו", "שלה", "שלהם",
+    "אותו", "אותה", "אותם", "עליו", "עליה", "ממנו", "ממנה", "שם", "זאת",
+    # אנגלית
+    "it", "its", "they", "them", "their", "this", "that", "these", "those", "he", "his", "there",
+}
+
+
+def is_hebrew(text):
+    return bool(HEBREW_LETTER.search(text))
 
 
 def needs_rewrite(question, history):
     """
     קריאה ל-Gemini רק כשצריך:
-    - השאלה לא באנגלית -> תרגום.
-    - שאלה באנגלית שנראית תלויה בהיסטוריה -> השלמה.
-    שאלה באנגלית שעומדת בפני עצמה עוברת ישר לחיפוש.
+    - השאלה לא בעברית (למשל באנגלית) -> תרגום לעברית, כי המאגר בעברית.
+    - שאלה בעברית שנראית תלויה בהיסטוריה -> השלמה.
+    שאלה בעברית שעומדת בפני עצמה עוברת ישר לחיפוש, בלי קריאה ל-Gemini.
     """
-    if NON_LATIN_LETTER.search(question):
+    if ANY_LETTER.search(question) and not is_hebrew(question):
         return True
     if not history:
         return False
-    words = re.findall(r"[a-z']+", question.lower())
+    words = re.findall(r"\w+", question.lower())
     return len(words) <= 3 or any(word in REFERENCE_WORDS for word in words)
 
 
 def build_search_query(question, history, llms, use_rewrite=config.USE_QUERY_REWRITE):
-    """מחזיר את שאילתת החיפוש באנגלית."""
+    """מחזיר את שאילתת החיפוש בעברית."""
     if not use_rewrite or not needs_rewrite(question, history):
         return question
 
@@ -185,8 +222,8 @@ def retrieve(search_query, components, use_bm25=config.USE_BM25, use_reranker=co
 # ==========================================
 
 def no_answer_message(question):
-    """הודעת "אין מידע" בשפת השאלה: עברית אם יש בשאלה אותיות לא לטיניות, אחרת אנגלית."""
-    return config.NO_ANSWER_HE if NON_LATIN_LETTER.search(question) else config.NO_ANSWER
+    """הודעת "אין מידע" בשפת השאלה: עברית לשאלה בעברית, אחרת אנגלית."""
+    return config.NO_ANSWER_HE if is_hebrew(question) else config.NO_ANSWER
 
 
 def cited_sources(answer, documents):

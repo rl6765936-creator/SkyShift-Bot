@@ -28,7 +28,7 @@ def load_documents():
     documents = SimpleDirectoryReader(KB_PATH, required_exts=[".md"]).load_data()
 
     for doc in documents:
-        doc_id = re.search(r"\*\*Document ID:\*\*\s*(\S+)", doc.text)
+        doc_id = re.search(r"\*\*(?:Document ID|מזהה מסמך):\*\*\s*(\S+)", doc.text)
         title = re.search(r"^# (.+)$", doc.text, re.MULTILINE)
         doc.metadata = {
             "doc_id": doc_id.group(1) if doc_id else doc.metadata["file_name"],

@@ -1,91 +1,91 @@
-# About SkyShift
+# אודות SkyShift
 
-**Document ID:** SKS-KB-001
-**Version:** 1.3
-**Owner:** Office of the CEO
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-001
+**גרסה:** 1.3
+**אחראי:** לשכת המנכ"ל
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. Who we are
+## 1. מי אנחנו
 
-SkyShift is an Israeli mobility venture exploring personal air mobility for everyday travel. Its Hebrew name is **"עולים לאוויר"** ("Olim La'Avir"), meaning "taking to the air" or "rising into the air". The English name, SkyShift, describes the idea at the heart of the venture: shifting part of daily travel from a crowded road to the open sky.
+SkyShift הוא מיזם תחבורה ישראלי שבוחן תעופה אישית לנסיעות יומיומיות. שמו העברי הוא **"עולים לאוויר"**. השם האנגלי, SkyShift, מתאר את הרעיון שבלב המיזם: להעביר חלק מהנסיעה היומית מכביש עמוס אל השמיים הפתוחים.
 
-SkyShift does not set out to replace the car. It starts from the car: a familiar shape, a familiar seat and a familiar daily routine. It asks one question: **what if the way forward could also be the way up?**
+SkyShift לא מבקש להחליף את המכונית. הוא מתחיל ממנה: צורה מוכרת, מושב מוכר ושגרה יומית מוכרת. ושואל שאלה אחת: **מה אם הדרך קדימה יכולה להיות גם הדרך למעלה?**
 
-The venture runs a structured, measurable trial program. Participants receive a vehicle for one month, record the trips they make in it, and follow their progress in a personal workspace. Participants who reach the participation target qualify for a lottery whose planned prize is the experimental vehicle itself.
+המיזם מפעיל תוכנית ניסוי מובנית ומדידה. המשתתפים מקבלים רכב לחודש אחד, מתעדים את הנסיעות שהם מבצעים בו, ועוקבים אחר ההתקדמות שלהם באזור אישי. משתתפים שמגיעים ליעד ההשתתפות זכאים להשתתף בהגרלה, שהפרס המתוכנן בה הוא הרכב הניסיוני עצמו.
 
-## 2. Why SkyShift was established
+## 2. למה הוקם SkyShift
 
-SkyShift was established for three connected purposes:
+SkyShift הוקם לשלוש מטרות קשורות:
 
-1. **To give time back to people.** Every day, many people spend a large part of their day in traffic. That time could go to family, study, work or rest. SkyShift's founders believe that wasted time on the road is not a law of nature.
-2. **To test, not just to imagine.** There is a lot of talk about flying cars and air taxis, but much less structured evidence about how ordinary people would actually use a personal air vehicle in daily life. SkyShift was founded to collect this evidence in a measured, honest and safe way.
-3. **To prepare the ground for the day regulation allows it.** Aviation authorities around the world have been publishing frameworks for new vertical take-off and landing (VTOL) aircraft. SkyShift wants to be ready, with a working participant platform, a fleet-management system and a safety framework, when trials become possible.
+1. **להחזיר לאנשים את הזמן שלהם.** בכל יום אנשים רבים מבלים חלק גדול מהיום בפקקים. את הזמן הזה אפשר היה להקדיש למשפחה, ללימוד, לעבודה או למנוחה. המייסדים מאמינים שזמן אבוד בכביש אינו גזירת גורל.
+2. **לבדוק, ולא רק לדמיין.** מדברים הרבה על מכוניות מעופפות ומוניות אוויריות, אבל יש הרבה פחות ראיות מסודרות לאופן שבו אנשים רגילים ישתמשו בפועל בכלי טיס אישי בחיי היומיום. SkyShift הוקם כדי לאסוף את הראיות האלה בצורה מדודה, כנה ובטוחה.
+3. **להכין את הקרקע ליום שבו הרגולציה תאפשר זאת.** רשויות תעופה בעולם מפרסמות מסגרות לכלי טיס חדשים בהמראה ונחיתה אנכית (VTOL). SkyShift רוצה להיות מוכן, עם פלטפורמת משתתפים עובדת, מערכת לניהול צי ומסגרת בטיחות, כשניסויים יתאפשרו.
 
-## 3. The story of the founding
+## 3. סיפור ההקמה
 
-The idea for SkyShift was born in the winter of 2024–2025, during a long evening in a traffic jam on one of central Israel's main highways. Yonatan Peretz, a transport planner by profession, sat in his car alongside his longtime friend Eliav Ben-Ami, a software architect. They counted the minutes, and then the hours per year, that both of them were losing on the same stretch of road.
+הרעיון ל-SkyShift נולד בחורף 2024–2025, בערב ארוך בפקק באחד הכבישים הראשיים במרכז הארץ. יונתן פרץ, מתכנן תחבורה במקצועו, ישב ברכב עם חברו הוותיק אליאב בן-עמי, ארכיטקט תוכנה. הם ספרו את הדקות, ואחר כך את השעות בשנה, ששניהם מאבדים על אותו קטע כביש.
 
-The conversation that began in that car became a working paper. The working paper became a series of meetings with engineers, aviation safety experts and potential participants. In **March 2025** the two founded SkyShift together, with the declared goal of building a responsible pilot program for personal air mobility.
+השיחה שהתחילה באותה מכונית הפכה לנייר עבודה. נייר העבודה הפך לסדרת פגישות עם מהנדסים, מומחי בטיחות תעופה ומשתתפים פוטנציאליים. ב**מרץ 2025** ייסדו השניים יחד את SkyShift, במטרה מוצהרת לבנות תוכנית ניסוי אחראית לתעופה אישית.
 
-They were soon joined by Dr. Avraham Shachar, an aerospace engineer with a background in airworthiness and safety assessment, who became the venture's Chief Safety and Airworthiness Officer, and by Moshe Levinger, who took responsibility for operations and the participant experience. Their profiles appear in document SKS-KB-003.
+אליהם הצטרף במהרה ד"ר אברהם שחר, מהנדס אווירונאוטיקה עם רקע בכשירות אווירית ובהערכת בטיחות, שהפך לממונה הבטיחות והכשירות האווירית של המיזם. אליהם הצטרף גם משה לוינגר, שקיבל אחריות על התפעול ועל חוויית המשתתף. הפרופילים שלהם מופיעים במסמך SKS-KB-003.
 
-## 4. Milestones
+## 4. אבני דרך
 
-| Date | Milestone |
+| מועד | אבן דרך |
 |---|---|
-| Winter 2024–2025 | The idea is born; the first working paper is written |
-| March 2025 | SkyShift is founded in central Israel |
-| April–July 2025 | Research phase: participant survey, interviews, regulatory review |
-| August 2025 | Publication of the internal "Problem Statement" (summarized in SKS-KB-002) |
-| November 2025 | Concept definition of the SkyCar vehicle family |
-| January 2026 | First version of the SkyShift Safety Framework (SSF) |
-| June 2026 | Trial program rules approved: one-month trial, monthly target, 80% threshold |
-| September 2026 | Development of the SkyShift platform begins (server and database) |
-| October 2026 | Vehicle catalog of 22 models added; PostgreSQL support; manager workspace |
-| October 2026 | The SkyShift platform is published as a public demonstration environment |
-| Planned, 2027 | Closed pilot, subject to regulatory approvals (see SKS-KB-013) |
+| חורף 2024–2025 | הרעיון נולד ונכתב נייר העבודה הראשון |
+| מרץ 2025 | SkyShift נוסד במרכז הארץ |
+| אפריל–יולי 2025 | שלב המחקר: סקר משתתפים, ראיונות, סקירת רגולציה |
+| אוגוסט 2025 | פרסום "הגדרת הבעיה" הפנימית (מסוכמת ב-SKS-KB-002) |
+| נובמבר 2025 | הגדרת הקונספט של משפחת רכבי SkyCar |
+| ינואר 2026 | הגרסה הראשונה של מסגרת הבטיחות של SkyShift (SSF) |
+| יוני 2026 | אישור כללי תוכנית הניסוי: ניסוי של חודש, יעד חודשי, סף של 80% |
+| ספטמבר 2026 | תחילת הפיתוח של פלטפורמת SkyShift (שרת ומסד נתונים) |
+| אוקטובר 2026 | הוספת קטלוג של 22 דגמי רכב, תמיכה ב-PostgreSQL ואזור מנהלים |
+| אוקטובר 2026 | פלטפורמת SkyShift מתפרסמת כסביבת הדגמה ציבורית |
+| מתוכנן, 2027 | פיילוט סגור, בכפוף לאישורים רגולטוריים (ראו SKS-KB-013) |
 
-## 5. What SkyShift does today
+## 5. מה SkyShift עושה היום
 
-At this stage SkyShift operates the **SkyShift platform**, a full web system that demonstrates the participant journey and fleet management:
+בשלב הנוכחי SkyShift מפעיל את **פלטפורמת SkyShift**, מערכת אינטרנט מלאה שמדגימה את מסע המשתתף ואת ניהול הצי:
 
-- **For participants:** registration, choosing an available vehicle, a one-month trial, recording flights, a personal dashboard with progress toward the monthly target and lottery eligibility.
-- **For managers:** fleet management (adding vehicles from the catalog, changing vehicle status), viewing participants, flights and assignments, and an activity and compliance dashboard.
+- **למשתתפים:** הרשמה, בחירת רכב פנוי, ניסוי של חודש, תיעוד טיסות, ואזור אישי שמציג את ההתקדמות לעבר היעד החודשי ואת הזכאות להגרלה.
+- **למנהלים:** ניהול הצי (הוספת רכבים מהקטלוג, שינוי סטטוס של רכב), צפייה במשתתפים, בטיסות ובהקצאות, ולוח מחוונים של פעילות ועמידה ביעדים.
 
-The platform is available in **Hebrew and English**. It includes a home page with a short animated story: a familiar road, a long queue of cars, and a SkyShift car that lifts off and continues above the traffic.
+הפלטפורמה זמינה ב**עברית ובאנגלית**. בעמוד הבית מופיע סיפור קצר מונפש: כביש מוכר, תור ארוך של מכוניות, ומכונית של SkyShift שמתרוממת וממשיכה מעל הפקק.
 
-## 6. What SkyShift does not do (yet)
+## 6. מה SkyShift לא עושה (עדיין)
 
-To be fully transparent:
+בשקיפות מלאה:
 
-- SkyShift does **not** currently operate passenger flights.
-- SkyShift does **not** currently run an active lottery.
-- SkyShift does **not** sell vehicles or flight tickets.
-- No SkyShift vehicle holds an airworthiness certificate.
-- SkyShift is **not** affiliated with the car manufacturers whose models appear as illustrations in the catalog.
+- SkyShift **אינו** מפעיל כיום טיסות נוסעים.
+- SkyShift **אינו** מקיים כיום הגרלה פעילה.
+- SkyShift **אינו** מוכר רכבים או כרטיסי טיסה.
+- לאף רכב של SkyShift אין תעודת כשירות אווירית.
+- SkyShift **אינו** קשור ליצרני הרכב שדגמיהם מופיעים כהמחשה בקטלוג.
 
-All of these are clearly stated in the platform itself: "The system is currently presented as a demonstration environment for the project. The vehicles, flights and lottery illustrate a future trial; there is currently no active flight service or lottery."
+כל אלה כתובים במפורש גם בפלטפורמה עצמה: "המערכת מוצגת כעת כסביבת הדגמה לפרויקט. הרכבים, הטיסות וההגרלה ממחישים ניסוי עתידי; אין כרגע שירות טיסות או הגרלה פעילה."
 
-## 7. Where SkyShift is based
+## 7. איפה SkyShift נמצא
 
-SkyShift is based in central Israel. The team works in a hybrid format, combining office work with remote work. The planned pilot, when approved, is designed to take place in a limited, defined area with designated take-off and landing points, as described in SKS-KB-006 and SKS-KB-007.
+SkyShift פועל במרכז הארץ. הצוות עובד במתכונת היברידית, שמשלבת עבודה מהמשרד ועבודה מרחוק. הפיילוט המתוכנן, כשיאושר, מתוכנן להתקיים באזור מוגדר ומוגבל, עם נקודות המראה ונחיתה ייעודיות, כפי שמתואר ב-SKS-KB-006 וב-SKS-KB-007.
 
-## 8. How SkyShift is funded
+## 8. איך SkyShift ממומן
 
-In its current stage SkyShift is funded by its founders and by a small circle of private early-stage supporters who share its vision. The venture has not raised public funds and does not offer securities to the public. Funding for the pilot stage will be raised in a separate round, subject to the regulatory progress described in the roadmap.
+בשלב הנוכחי SkyShift ממומן על ידי מייסדיו ועל ידי מעגל קטן של תומכים פרטיים בשלב מוקדם, ששותפים לחזון. המיזם לא גייס כספים מהציבור ואינו מציע ניירות ערך לציבור. המימון לשלב הפיילוט יגויס בסבב נפרד, בהתאם להתקדמות הרגולטורית המתוארת במפת הדרכים.
 
-## 9. Our promise
+## 9. ההבטחה שלנו
 
-SkyShift makes three promises to every participant and every member of the public:
+SkyShift מבטיח שלושה דברים לכל משתתף ולכל אדם מהציבור:
 
-1. **Safety comes before everything.** No flight will take place before every safety and regulatory requirement is met.
-2. **We will always say where we really stand.** A demonstration is called a demonstration; an illustration is called an illustration; a design target is called a design target.
-3. **The rules are the same for everyone.** Eligibility is calculated by the system according to fixed, published rules, and the draw is fair and supervised.
+1. **בטיחות לפני הכול.** שום טיסה לא תתקיים לפני שכל דרישות הבטיחות והרגולציה יתקיימו.
+2. **תמיד נגיד איפה אנחנו באמת עומדים.** הדגמה נקראת הדגמה; המחשה נקראת המחשה; יעד תכנון נקרא יעד תכנון.
+3. **הכללים זהים לכולם.** הזכאות מחושבת על ידי המערכת לפי כללים קבועים ומפורסמים, וההגרלה הוגנת ומפוקחת.
 
-## 10. Contact
+## 10. יצירת קשר
 
-- General inquiries and participant support: **support@skyshift.demo**
-- Media inquiries: **media@skyshift.demo**
-- Safety reports: **safety@skyshift.demo**
+- פניות כלליות ותמיכה במשתתפים: **support@skyshift.demo**
+- פניות תקשורת: **media@skyshift.demo**
+- דיווחי בטיחות: **safety@skyshift.demo**

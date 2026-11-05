@@ -1,154 +1,154 @@
-# The SkyShift Trial Program
+# תוכנית הניסוי של SkyShift
 
-**Document ID:** SKS-KB-004
-**Version:** 2.0
-**Owner:** Operations & Participant Experience
-**Last updated:** 30 October 2026
+**מזהה מסמך:** SKS-KB-004
+**גרסה:** 2.0
+**אחראי:** תפעול וחוויית משתתף
+**עודכן לאחרונה:** 30 באוקטובר 2026
 
 ---
 
-## 1. The idea in one paragraph
+## 1. הרעיון בפסקה אחת
 
-In the SkyShift trial, a participant chooses an available vehicle for **one month**, records each completed flight, and follows their progress in a personal workspace. Each participant's monthly target is based on their own travel habits: the **average number of daily trips** they declare at registration, **multiplied by 30**. A participant who completes **at least 80%** of the target within the trial month becomes **eligible for the lottery**, whose planned prize is the experimental vehicle at no cost, according to the trial terms.
+בניסוי של SkyShift המשתתף בוחר רכב פנוי ל**חודש אחד**, מתעד כל טיסה שהושלמה, ועוקב אחר ההתקדמות שלו באזור אישי. היעד החודשי של כל משתתף מבוסס על הרגלי הנסיעה שלו עצמו: **ממוצע הנסיעות היומי** שהוא מצהיר עליו בהרשמה, **כפול 30**. משתתף שמשלים **לפחות 80%** מהיעד בתוך חודש הניסוי **זכאי להשתתף בהגרלה**, שהפרס המתוכנן בה הוא הרכב הניסיוני, ללא עלות, בהתאם לתנאי הניסוי.
 
-> **Status:** The trial program currently runs as a demonstration in the SkyShift platform. The steps below are fully implemented in the platform, but there are no real flights and no active draw at this stage.
+> **מצב:** תוכנית הניסוי פועלת כרגע כהדגמה בפלטפורמת SkyShift. כל השלבים שלהלן ממומשים במלואם בפלטפורמה, אבל בשלב זה אין טיסות אמיתיות ואין הגרלה פעילה.
 
-## 2. Who can participate
+## 2. מי יכול להשתתף
 
-The planned pilot is open to people who meet all of the following:
+הפיילוט המתוכנן פתוח למי שעומד בכל התנאים הבאים:
 
-- Aged 18 or over.
-- Hold a valid email address and register in the SkyShift platform.
-- Accept the Terms of Participation (SKS-KB-011).
-- Complete the SkyShift safety briefing before their first flight (in the pilot stage).
-- Are not employees of SkyShift or members of their immediate families (for the lottery; see SKS-KB-005).
+- בן 18 ומעלה.
+- בעל כתובת דוא"ל תקפה, שנרשם לפלטפורמת SkyShift.
+- מקבל את תנאי ההשתתפות (SKS-KB-011).
+- משלים את תדריך הבטיחות של SkyShift לפני הטיסה הראשונה (בשלב הפיילוט).
+- אינו עובד SkyShift ואינו בן משפחה קרוב של עובד (לעניין ההגרלה; ראו SKS-KB-005).
 
-In the demonstration phase, anyone can register and try the platform.
+בשלב ההדגמה כל אחד יכול להירשם ולנסות את הפלטפורמה.
 
-## 3. The participant journey, step by step
+## 3. מסע המשתתף, שלב אחר שלב
 
-### Step 1: Register
+### שלב 1: הרשמה
 
-The participant creates an account with:
+המשתתף פותח חשבון עם הפרטים הבאים:
 
-| Field | Rules |
+| שדה | כללים |
 |---|---|
-| Full name | Required, 1 to 200 characters |
-| Email address | Required, valid format, not already registered (letter case does not matter) |
-| Password | At least 6 characters |
-| Average daily trips | A whole number, at least 1 |
-| Gender (optional) | Male or Female; used only to address the participant correctly in Hebrew |
+| שם מלא | חובה, 1 עד 200 תווים |
+| כתובת דוא"ל | חובה, בפורמט תקין, שעוד לא נרשמה (אין הבדל בין אותיות גדולות לקטנות) |
+| סיסמה | לפחות 6 תווים |
+| ממוצע נסיעות יומי | מספר שלם, לפחות 1 |
+| מגדר (לא חובה) | זכר או נקבה; משמש רק כדי לפנות למשתתף בעברית בלשון הנכונה |
 
-After registration the participant is signed in immediately.
+אחרי ההרשמה המשתתף מחובר מיד.
 
-**Why we ask for average daily trips:** this number sets the personal monthly target. A participant who travels 4 times a day has a target of 4 × 30 = **120 trips** per month. A participant who travels twice a day has a target of 60. The target reflects real life, so the trial measures real use.
+**למה אנחנו שואלים על ממוצע הנסיעות היומי:** המספר הזה קובע את היעד החודשי האישי. משתתף שנוסע 4 פעמים ביום מקבל יעד של 4 × 30 = **120 נסיעות** בחודש. משתתף שנוסע פעמיים ביום מקבל יעד של 60. היעד משקף את החיים האמיתיים, ולכן הניסוי מודד שימוש אמיתי.
 
-> Choose your average daily trips honestly. A number that is too high makes the target harder to reach; a number that is too low does not reflect your real travel.
+> כדאי להצהיר על ממוצע הנסיעות היומי בכנות. מספר גבוה מדי מקשה להגיע ליעד; מספר נמוך מדי לא משקף את הנסיעות האמיתיות.
 
-### Step 2: Choose a vehicle
+### שלב 2: בחירת רכב
 
-The participant opens the **Vehicles** screen and sees all vehicles currently available in the fleet. Each vehicle card shows the manufacturer and model of the illustration, the number of seats, the maximum road speed, a short description, and an accuracy label for each specification (see SKS-KB-008).
+המשתתף פותח את מסך **הרכבים** ורואה את כל הרכבים הפנויים כרגע בצי. בכל כרטיס רכב מוצגים היצרן והדגם של ההמחשה, מספר המושבים, מהירות הכביש המרבית, תיאור קצר ותווית דיוק לכל נתון (ראו SKS-KB-008).
 
-The participant can filter vehicles by type and selects one vehicle. Before confirming, the platform shows:
+המשתתף יכול לסנן רכבים לפי סוג, ובוחר רכב אחד. לפני האישור הפלטפורמה מציגה:
 
-> "This vehicle will be allocated to you for one month. You can hold one active vehicle assignment at a time."
+> "הרכב הזה יוקצה לך לחודש אחד. אפשר להחזיק הקצאת רכב פעילה אחת בכל פעם."
 
-**Fairness rule: one vehicle, one participant.** Each vehicle can be held by only one participant at a time. If two participants try to select the same vehicle at the same moment, exactly one succeeds. The other receives a clear message that the vehicle is no longer available and is invited to refresh the list and choose another. This is guaranteed by the server (see SKS-KB-009).
+**כלל ההוגנות: רכב אחד, משתתף אחד.** כל רכב יכול להיות מוחזק בידי משתתף אחד בלבד בכל רגע. אם שני משתתפים מנסים לבחור את אותו רכב באותו רגע, רק אחד מהם מצליח בדיוק. השני מקבל הודעה ברורה שהרכב כבר לא פנוי, ומוזמן לרענן את הרשימה ולבחור רכב אחר. השרת הוא שמבטיח את זה (ראו SKS-KB-009).
 
-**One active vehicle per participant.** A participant who already has an active assignment cannot select a second vehicle.
+**רכב פעיל אחד לכל משתתף.** משתתף שכבר יש לו הקצאה פעילה אינו יכול לבחור רכב נוסף.
 
-### Step 3: The trial month begins
+### שלב 3: חודש הניסוי מתחיל
 
-When a vehicle is selected, a **vehicle assignment** is created:
+כשנבחר רכב, נוצרת **הקצאת רכב**:
 
-- **Start:** the exact moment of selection.
-- **End:** exactly one calendar month later (for example, from 14 October at 10:00 to 14 November at 10:00).
-- Both the start time and the end time are **included** in the trial period.
+- **התחלה:** הרגע המדויק של הבחירה.
+- **סיום:** בדיוק חודש קלנדרי אחד אחר כך (למשל, מ-14 באוקטובר בשעה 10:00 עד 14 בנובמבר בשעה 10:00).
+- גם רגע ההתחלה וגם רגע הסיום **כלולים** בתקופת הניסוי.
 
-The trial dates are set by the server, never by the participant or the interface.
+תאריכי הניסוי נקבעים על ידי השרת, לעולם לא על ידי המשתתף או הממשק.
 
-### Step 4: Record flights
+### שלב 4: תיעוד טיסות
 
-After each completed trip, the participant opens **Record a flight** and enters the local date and time of the trip. The platform converts it to universal time (UTC) and sends it to the server. The vehicle is linked to the flight automatically through the active assignment.
+אחרי כל נסיעה שהושלמה, המשתתף פותח את **תיעוד טיסה** ומזין את התאריך והשעה המקומיים של הנסיעה. הפלטפורמה ממירה אותם לזמן אוניברסלי (UTC) ושולחת לשרת. הרכב מקושר לטיסה אוטומטית דרך ההקצאה הפעילה.
 
-A flight is accepted only if all of the following are true:
+טיסה מתקבלת רק אם כל התנאים הבאים מתקיימים:
 
-1. The participant has an **active vehicle assignment**.
-2. The date and time are **within the trial month**, including its first and last moments.
-3. The date and time are **not in the future**.
-4. A flight with **exactly the same date and time** has not already been recorded by the same participant. A duplicate is rejected and **not counted twice**.
+1. למשתתף יש **הקצאת רכב פעילה**.
+2. התאריך והשעה נמצאים **בתוך חודש הניסוי**, כולל הרגע הראשון והאחרון שלו.
+3. התאריך והשעה **אינם בעתיד**.
+4. אותו משתתף לא תיעד כבר טיסה **באותו תאריך ובאותה שעה בדיוק**. טיסה כפולה נדחית, ו**לא נספרת פעמיים**.
 
-When a flight is accepted, the participant sees: "Flight recorded successfully. Your dashboard has been updated."
+כשהטיסה מתקבלת, המשתתף רואה: "הטיסה תועדה בהצלחה. האזור האישי עודכן."
 
-> In the planned pilot, flights will also be confirmed automatically by data from the vehicle itself. Verification of flights from a trusted vehicle source is planned future work (see SKS-KB-013).
+> בפיילוט המתוכנן הטיסות יאושרו גם אוטומטית לפי נתונים מהרכב עצמו. אימות טיסות ממקור מהימן ברכב הוא עבודה עתידית מתוכננת (ראו SKS-KB-013).
 
-### Step 5: Follow progress in the dashboard
+### שלב 5: מעקב אחר ההתקדמות באזור האישי
 
-The personal dashboard shows:
+האזור האישי מציג:
 
-| Item | Meaning |
+| פריט | משמעות |
 |---|---|
-| Current vehicle | The vehicle in the active assignment |
-| Trial period | Start and end of the trial month |
-| Expected monthly trips | Average daily trips × 30 |
-| Completed flights | Flights recorded **within the active trial month** |
-| Completion percentage | Completed flights ÷ expected trips × 100, rounded down |
-| Lottery eligibility | Calculated by the server: eligible from 80% |
+| הרכב הנוכחי | הרכב שבהקצאה הפעילה |
+| תקופת הניסוי | תחילת חודש הניסוי וסופו |
+| נסיעות צפויות בחודש | ממוצע נסיעות יומי × 30 |
+| טיסות שהושלמו | טיסות שתועדו **בתוך חודש הניסוי הפעיל** |
+| אחוז השלמה | טיסות שהושלמו ÷ נסיעות צפויות × 100, מעוגל כלפי מטה |
+| זכאות להגרלה | מחושבת על ידי השרת: זכאי מ-80% |
 
-Only flights within the **current** trial month count. Flights from a previous assignment do not carry over.
+רק טיסות מתוך חודש הניסוי **הנוכחי** נספרות. טיסות מהקצאה קודמת לא עוברות הלאה.
 
-### Step 6: Reach the threshold
+### שלב 6: הגעה לסף
 
-When completed flights reach at least 80% of the target, the dashboard shows:
+כשהטיסות שהושלמו מגיעות לפחות ל-80% מהיעד, האזור האישי מציג:
 
-> "Your participation has met the required threshold."
+> "ההשתתפות שלך עמדה בסף הנדרש."
 
-Until then, it shows: "Eligibility begins at 80% of your expected monthly trips."
+עד אז מוצג: "הזכאות מתחילה ב-80% מהנסיעות הצפויות שלך בחודש."
 
-## 4. Worked examples
+## 4. דוגמאות חישוב
 
-| Average daily trips | Monthly target | 80% threshold | Example result |
+| ממוצע נסיעות יומי | יעד חודשי | סף של 80% | תוצאה לדוגמה |
 |---|---|---|---|
-| 1 | 30 | 24 flights | 24 flights → 80% → eligible |
-| 2 | 60 | 48 flights | 45 flights → 75% → not yet eligible |
-| 3 | 90 | 72 flights | 72 flights → 80% → eligible |
-| 4 | 120 | 96 flights | 96 flights → 80% → eligible |
-| 5 | 150 | 120 flights | 119 flights → 79% → not yet eligible |
+| 1 | 30 | 24 טיסות | 24 טיסות → 80% → זכאי |
+| 2 | 60 | 48 טיסות | 45 טיסות → 75% → עדיין לא זכאי |
+| 3 | 90 | 72 טיסות | 72 טיסות → 80% → זכאי |
+| 4 | 120 | 96 טיסות | 96 טיסות → 80% → זכאי |
+| 5 | 150 | 120 טיסות | 119 טיסות → 79% → עדיין לא זכאי |
 
-The threshold check uses exact whole-number arithmetic: a participant is eligible when completed flights × 100 is greater than or equal to 80 × the monthly target. There is no rounding in the participant's favour or against them.
+בדיקת הסף משתמשת בחשבון מדויק של מספרים שלמים: משתתף זכאי כשמספר הטיסות שהושלמו × 100 גדול או שווה ל-80 × היעד החודשי. אין עיגול לטובת המשתתף או לרעתו.
 
-## 5. Rules at a glance
+## 5. הכללים במבט אחד
 
-1. One participant, one active vehicle.
-2. One vehicle, one participant at a time.
-3. The trial lasts exactly one month from the moment of selection.
-4. Flights count only within the active trial month.
-5. No future flights, no flights outside the trial, no duplicates.
-6. Target = average daily trips × 30.
-7. Eligibility from 80% of the target.
-8. The server calculates everything; the interface only displays it.
+1. משתתף אחד, רכב פעיל אחד.
+2. רכב אחד, משתתף אחד בכל רגע.
+3. הניסוי נמשך חודש אחד בדיוק מרגע הבחירה.
+4. טיסות נספרות רק בתוך חודש הניסוי הפעיל.
+5. אין טיסות עתידיות, אין טיסות מחוץ לניסוי, אין כפילויות.
+6. יעד = ממוצע נסיעות יומי × 30.
+7. זכאות מ-80% מהיעד.
+8. השרת מחשב הכול; הממשק רק מציג.
 
-## 6. What happens at the end of the trial month
+## 6. מה קורה בסוף חודש הניסוי
 
-When the trial month ends:
+כשחודש הניסוי מסתיים:
 
-- The assignment becomes part of the participant's **assignment history**.
-- New flights can no longer be recorded against it.
-- The participant's eligibility for that trial month is final, based on flights recorded within it.
-- The vehicle is returned to the fleet by the operations team, after inspection, and becomes available again. Automatic return of vehicles at the end of a trial is planned (see SKS-KB-013).
+- ההקצאה הופכת לחלק מ**היסטוריית ההקצאות** של המשתתף.
+- אי אפשר עוד לתעד טיסות עליה.
+- הזכאות של המשתתף לאותו חודש ניסוי סופית, לפי הטיסות שתועדו בתוכו.
+- צוות התפעול מחזיר את הרכב לצי אחרי בדיקה, והוא חוזר להיות פנוי. החזרה אוטומטית של רכבים בסוף ניסוי מתוכננת (ראו SKS-KB-013).
 
-## 7. Common messages and what they mean
+## 7. הודעות נפוצות ומה הן אומרות
 
-| Message | Meaning and what to do |
+| הודעה | משמעות ומה לעשות |
 |---|---|
-| "You already have an assigned vehicle." | You have an active trial. Open "My vehicle" to see it. |
-| "This vehicle is no longer available." | Someone else selected it first. Refresh the list and choose another. |
-| "Select an available vehicle before recording a flight." | You have no active assignment. Choose a vehicle first. |
-| "The flight must be within your assigned vehicle's trial period…" | The date you entered is before the start or after the end of your trial month. |
-| "A completed flight cannot have a future date or time." | Enter the time of a trip that has already happened. |
-| "This flight date and time have already been recorded." | A flight at this exact time already exists; it was not counted twice. |
-| "Your session has expired. Please sign in again." | For security, sessions expire. Sign in again. |
+| "כבר מוקצה לך רכב." | יש לך ניסוי פעיל. אפשר לראות אותו במסך "הרכב שלי". |
+| "הרכב הזה אינו פנוי כעת." | מישהו אחר בחר בו קודם. יש לרענן את הרשימה ולבחור רכב אחר. |
+| "יש לבחור רכב פנוי לפני תיעוד טיסה." | אין לך הקצאה פעילה. יש לבחור רכב קודם. |
+| "מועד הטיסה חייב להיות בתוך חודש הניסוי של הקצאת הרכב..." | התאריך שהוזן לפני תחילת חודש הניסוי או אחרי סופו. |
+| "לא ניתן לתעד טיסה בתאריך או בשעה עתידיים." | יש להזין את המועד של נסיעה שכבר התקיימה. |
+| "כבר תועדה טיסה בתאריך ובשעה האלה." | כבר קיימת טיסה בשעה המדויקת הזו; היא לא נספרה פעמיים. |
+| "ההתחברות פגה. יש להתחבר שוב." | מטעמי אבטחה, ההתחברות פגה אחרי זמן מה. יש להתחבר שוב. |
 
-## 8. Languages
+## 8. שפות
 
-The platform is available in Hebrew and English. Messages, including error messages, follow the selected language, even when the language is switched after an error has appeared.
+הפלטפורמה זמינה בעברית ובאנגלית. ההודעות, כולל הודעות השגיאה, מוצגות בשפה שנבחרה, גם כשמחליפים שפה אחרי שהופיעה שגיאה.
